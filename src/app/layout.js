@@ -8,13 +8,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "mgomezdev's Protfolio",
   description: "Mati Gomez's CV and projects",
-  author: 'Matias Gomez',
-  publishedTime: '2024-02-09T11:42:10.367Z',
+  
   openGraph: {
     title: "mgomezdev's Portfolio",
     description: "Mati Gomez's CV and projects",
     url: 'https://magomezdev-portfolio.vercel.app/',
     siteName: "mgomezdev's Portfolio",
+    author: 'Matias Gomez',
+    publishedTime: '2024-02-09T11:42:10.367Z',
     images: [
       {
         url: 'https://magomezdev-portfolio.vercel.app/preview2.png', 

@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="relative overflow-hidden">{children}</main>
+        <main className="relative overflow-hidden custom-pattern-2">{children}</main>
       </body>
     </html>
   );

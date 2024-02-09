@@ -18,45 +18,45 @@ function Slideshow() {
   const [page, setPage] = useState(0);
 
   const handleNext = () => {
+
     setIsShowing(false);
-    console.log(page);
+
     setPage((page) => {
       let newPage = page + 1;
       return newPage === 4 ? 0 : newPage;
     });
     resetIsShowing();
-    console.log(isShowing);
+
   };
 
   return (
     <>
       <div className="flex flex-row justify-center mt-6">
-        <button
-          className="bg-[#6b401b] bg-opacity-55  py-3 px-5  shadow-md rounded-md"
-          onClick={handleNext}
-        >
-          Next
-        </button>
+
       </div>
-      <div className="aspect-video w-[60rem] self-center mx-auto mt-6">
-        <Transition
+      <div className=" lg:aspect-video lg:w-[60rem] self-center mx-auto mt-6">
+        <button
           
-          show={isShowing}
-          enter="transition-opacity duration-75"
-          enterFrom="opacity-0"
-          enterTo="opacity-100"
-          leave="transition-opacity duration-300"
-          leaveFrom="opacity-100"
-          leaveTo="opacity-0"
-        >
-          <Image
-            className="rounded-md shadow-sm"
-            src={galeria[page]}
-            alt="Screenshot del proyecto agur"
-            height={562}
-            width={1000}
-          />
-        </Transition>
+          onClick={handleNext}>
+          <Transition
+
+            show={isShowing}
+            enter="transition-opacity ease-linear duration-75"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="transition-opacity ease-linear duration-300"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0" >
+
+            <Image
+              className="rounded-md shadow-sm"
+              src={galeria[page]}
+              alt="Screenshot del proyecto agur"
+              height={562}
+              width={1000} />
+
+          </Transition>
+        </button>
       </div>
     </>
   );

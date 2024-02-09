@@ -47,7 +47,7 @@ export default function Landing() {
       </div>
       <ContainerLanding id="head">
         <div>
-          <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl ">
+          <h2 id="Mati-Gomez" className="text-4xl font-bold tracking-tight text-black sm:text-6xl ">
             Mati Gomez
           </h2>
           <article>

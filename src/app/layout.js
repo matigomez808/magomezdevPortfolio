@@ -15,8 +15,8 @@ export const metadata = {
     siteName: "mgomezdev's Portfolio",
     images: [
       {
-        url: 'https://magomezdev-portfolio.vercel.app/preview.png', 
-        width: 1107,
+        url: 'https://magomezdev-portfolio.vercel.app/preview2.png', 
+        width: 619,
         height: 417,
       }
     ],

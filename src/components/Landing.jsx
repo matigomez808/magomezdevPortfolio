@@ -92,7 +92,7 @@ export default function Landing() {
           <h2 className="text-xl font-bold mt-4 text-center col-span-full">
             Skills
           </h2>
-          <div className="col-span-full flex flex-row justify-between sm:flex-wrap sm:px-2">
+          <div className="col-span-full flex flex-row justify-between flex-wrap px-2">
             {skills.map((skill) => (
               <div key={skill.name} className="mt-4">
                 {skill.image}

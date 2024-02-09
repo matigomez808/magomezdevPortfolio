@@ -39,11 +39,14 @@ const skills = [
 export default function Landing() {
   return (
     <div>
-      <div id="top" className="mx-auto max-w-7xl bg-zinc-300 py-8 px-8 bg-opacity-80 md:bg-opacity-100">
+      <div
+        id="top"
+        className="mx-auto max-w-7xl bg-zinc-300 pt-8 px-8 bg-opacity-80 md:bg-opacity-100"
+      >
         /magomezdev
       </div>
-      <ContainerLanding id="head" >
-        <div >
+      <ContainerLanding id="head">
+        <div>
           <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl ">
             Mati Gomez
           </h2>
@@ -54,14 +57,15 @@ export default function Landing() {
             <p className="mt-6 text-lg leading-8 text-black text-justify">
               Apasionado por el desarrollo de software. Aprender de forma
               autodidacta me ayudó a re-entender a esta herramienta que son las
-              TI. Mi formación previa en comunicación, audiovisuales y carpintería
-              me acompañan en este nuevo trayecto de mi carrera profesional.
+              TI. Mi formación previa en comunicación, audiovisuales y
+              carpintería me acompañan en este nuevo trayecto de mi carrera
+              profesional.
             </p>
           </article>
         </div>
         <aside>
           <Image
-            className="rounded-3xl self-center mx-auto shadow-sm sm:p-4"
+            className="rounded-3xl self-center mx-auto shadow-sm pt-4 sm:p-4"
             src="/carnet.jpg"
             alt="headshot de Mati Gomez"
             height={300}
@@ -70,7 +74,9 @@ export default function Landing() {
           />
         </aside>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none col-span-full">
-          <h2 className="text-xl font-bold lg:text-left sm:text-center">Proyectos</h2>
+          <h2 className="text-xl font-bold lg:text-left sm:text-center">
+            Proyectos
+          </h2>
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 mt-6 text-black sm:grid-cols-2 sm:flex lg:gap-x-10">
             {links.map((link) => (
               <div key={link.name}>
@@ -95,18 +101,22 @@ export default function Landing() {
           </div>
         </section>
       </ContainerLanding>
-      <ContainerSection >
+      <ContainerSection>
         <div className="col-span-full mt-6">
-          <h2 id="torre-de-mabel" className="text-xl font-bold mt-4 text-center">
+          <h2
+            id="torre-de-mabel"
+            className="text-xl font-bold mt-4 text-center"
+          >
             La Torre de Mabel
           </h2>
           <article className="mt-6">
             Esta es mi primera aplicación. Es un pequeño juego en el que
-            introducimos palabras al azar en un relato y despues vemos qué relato nuevo
-            construimos. Es verdaderamente sencilla pero deivertida.
+            introducimos palabras al azar en un relato y despues vemos qué
+            relato nuevo construimos. Es verdaderamente sencilla pero
+            deivertida.
           </article>
           <Image
-            className="rounded-md self-center mx-auto"
+            className="rounded-md self-center mx-auto mt-4"
             src="/mabel.png"
             alt="screenshot de la torre de mabel"
             width={1000}
@@ -116,7 +126,9 @@ export default function Landing() {
       </ContainerSection>
       <ContainerSection>
         <div className="col-span-full mt-6">
-          <h2 id="agur" className="text-xl font-bold mt-4 text-center">Agur</h2>
+          <h2 id="agur" className="text-xl font-bold mt-4 text-center">
+            Agur
+          </h2>
           <article className="mt-6">
             Este es un sitio de Ecommerce para un emprendimiento de ropa
             interior en mi ciudad. Es mi primer proyecto con React. Es bastante
@@ -130,7 +142,5 @@ export default function Landing() {
         </div>
       </ContainerSection>
     </div>
-
-
   );
 }

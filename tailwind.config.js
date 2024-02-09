@@ -7,13 +7,13 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': '400px',
+      sm: "400px",
       // => @media (min-width: 400px) { ... }
 
-      'md': '960px',
+      md: "960px",
       // => @media (min-width: 960px) { ... }
 
-      'lg': '1440px',
+      lg: "1440px",
       // => @media (min-width: 1440px) { ... }
     },
   },

@@ -2,32 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.custom-pattern {
+  background: radial-gradient(circle, transparent 20%, #2e2e2e 20%, #2e2e2e 80%, transparent 80%, transparent) 0% 0% / 86px 86px, radial-gradient(circle, transparent 20%, #2e2e2e 20%, #2e2e2e 80%, transparent 80%, transparent) 43px 43px / 86px 86px, linear-gradient(#cc5200 1px, transparent 1px) 0px -0.5px / 43px 43px, linear-gradient(90deg, #cc5200 1px, #2e2e2e 1px) -0.5px 0px / 43px 43px #2e2e2e;
+  background-size: 86px 86px, 86px 86px, 43px 43px, 43px 43px;
+  background-color: #2e2e2e;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.custom-pattern-3d {
+  background:
+  conic-gradient(at 50% calc(100%/6),#CC5200 60deg,#0000 0),
+  conic-gradient(at calc(100%/6) 50%,#0000 240deg,#CC5200 0),
+  conic-gradient(from 180deg at calc(100%/6) calc(500%/6),#CC5200 60deg,#0000 0),
+  conic-gradient(from 180deg at calc(500%/6),#0000 240deg,#CC5200 0) calc(4*.866*50px) 0,
+  repeating-linear-gradient(-150deg,#1A64E5 0 calc(100%/6),#0000   0 50%),
+  repeating-linear-gradient(-30deg, #fff 0 calc(100%/6),#2E2E2E 0 50%);
+background-size: calc(6*.866*50px) calc(3*50px);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.custom-pattern-2 {
+  background:
+      radial-gradient(circle farthest-side at 0% 50%,#2e2e2e 23.5%,#0000 0)40.95px 58.5px,
+      radial-gradient(circle farthest-side at 0% 50%,#07876a 24%,#0000 0)37.05px 58.5px,
+      linear-gradient(#2e2e2e 14%,#0000 0, #0000 85%,#2e2e2e 0)0 0,
+      linear-gradient(150deg,#2e2e2e 24%,#07876a 0,#07876a 26%,#0000 0,#0000 74%,#07876a 0,#07876a 76%,#2e2e2e 0)0 0,
+      linear-gradient(30deg,#2e2e2e 24%,#07876a 0,#07876a 26%,#0000 0,#0000 74%,#07876a 0,#07876a 76%,#2e2e2e 0)0 0,
+      linear-gradient(90deg,#07876a 2%,#2e2e2e 0,#2e2e2e 98%,#07876a 0%)0 0 #2e2e2e;
+background-size: 78px 117px;
+background-color: #2e2e2e;
 }

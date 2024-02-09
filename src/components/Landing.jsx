@@ -39,7 +39,7 @@ const skills = [
 export default function Landing() {
   return (
     <div>
-      <div id="top" className="mx-auto max-w-7xl bg-zinc-300 py-8 px-8 sm:bg-opacity-80 md:bg-opacity-100">
+      <div id="top" className="mx-auto max-w-7xl bg-zinc-300 py-8 px-8 bg-opacity-80 md:bg-opacity-100">
         /magomezdev
       </div>
       <ContainerLanding id="head" >

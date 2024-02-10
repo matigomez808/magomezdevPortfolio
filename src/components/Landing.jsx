@@ -113,7 +113,7 @@ export default function Landing() {
             Esta es mi primera aplicación. Es un pequeño juego en el que
             introducimos palabras al azar en un relato y despues vemos qué
             relato nuevo construimos. Es verdaderamente sencilla pero
-            deivertida.
+            divertida.
           </article>
           <Image
             className="rounded-md self-center mx-auto mt-4"

@@ -54,7 +54,7 @@ export default function Landing() {
             <p className="mt-6 text-lg leading-8 text-black">
               Desarrollador fullstack situado en La Pampa, Argentina
             </p>
-            <p className="mt-6 text-lg leading-8 text-black text-justify">
+            <p className="mt-6 text-lg leading-8 text-black">
               Apasionado por el desarrollo de software. Aprender de forma
               autodidacta me ayudó a re-entender a esta herramienta que son las
               TI. Mi formación previa en comunicación, audiovisuales y
@@ -110,10 +110,7 @@ export default function Landing() {
             La Torre de Mabel
           </h2>
           <article className="mt-6">
-            Esta es mi primera aplicación. Es un pequeño juego en el que
-            introducimos palabras al azar en un relato y despues vemos qué
-            relato nuevo construimos. Es verdaderamente sencilla pero
-            divertida.
+            Esta es mi primera aplicación. Es un pequeño juego en el que introducimos palabras al azar en un relato y despues vemos qué relato nuevo construimos. Es verdaderamente sencilla pero divertida.
           </article>
           <Image
             className="rounded-md self-center mx-auto mt-4"

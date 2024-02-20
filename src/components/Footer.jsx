@@ -1,13 +1,14 @@
-import ContainerSection from "./ContainerSection"
+
 import Github from "./icons/Github.svg"
 import Linkedin from "./icons/Linkedin.svg"
 import Instagram from "./icons/Instagram.svg"
 import Link from "next/link"
+import { Container } from "./Container"
 
 export const Footer = () => {
   return (
-    
-      <footer className="flex flex-col pb-2">
+      <Container>
+      <footer className="flex flex-col pb-8">
         <p className="text-center my-2">
           Mis links:
         </p>
@@ -19,7 +20,7 @@ export const Footer = () => {
           <div className="flex-1"></div>
         </div>
       </footer>
-    
+    </Container>
   )
 
 }

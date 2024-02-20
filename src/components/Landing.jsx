@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Java from "./icons/javaIcon.svg";
 import Js from "./icons/jsIcon.svg";
@@ -43,7 +44,7 @@ export default function Landing() {
         id="top"
         className="mx-auto max-w-7xl bg-zinc-300 pt-8 px-8 bg-opacity-80 md:bg-opacity-100"
       >
-        /magomezdev
+        <span className="font-semibold">{">_"}</span>magomezdev
       </div>
       <ContainerLanding id="head">
         <div>
@@ -114,7 +115,7 @@ export default function Landing() {
           </article>
           <Image
             className="rounded-md self-center mx-auto mt-4"
-            src="/mabel.png"
+            src="/assets/torreMabel/mabel.png"
             alt="screenshot de la torre de mabel"
             width={1000}
             height={667}

@@ -1,0 +1,13 @@
+---
+title: ""
+excerpt: ""
+coverImage: "/assets/blog/cover3.jpg"
+date: ""
+author:
+  name: Mati Gomez
+
+ogImage:
+  url: "/assets/blog/cover.jpg"
+---
+
+Content here

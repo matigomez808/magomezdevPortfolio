@@ -5,10 +5,10 @@ import { useTimeoutFn } from "@reactuses/core";
 
 import Image from "next/image";
 import { Fragment, useState } from "react";
-import agur1 from "~/public/agur1.png";
-import agur2 from "~/public/agur2.png";
-import agur3 from "~/public/agur3.png";
-import agur4 from "~/public/agur4.png";
+import agur1 from "~/public/assets/agur/agur1.png";
+import agur2 from "~/public/assets/agur/agur2.png";
+import agur3 from "~/public/assets/agur/agur3.png";
+import agur4 from "~/public/assets/agur/agur4.png";
 
 const galeria = [agur1, agur2, agur3, agur4];
 

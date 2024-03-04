@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { Footer } from "@/components/Footer";
 import Navigator from "@/components/Navigator";
 
+
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
@@ -13,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: "mgomezdev's Portfolio",
     description: "Mati Gomez's CV and projects",
-    url: "https://magomezdev-portfolio.vercel.app/",
+    url: "https://magomezdev.tech/",
     siteName: "mgomezdev's Portfolio",
     author: "Matias Gomez",
     publishedTime: "2024-02-09T11:42:10.367Z",
@@ -30,10 +31,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={montserrat.className}>
-        <main className="relative overflow-hidden custom-pattern-2">
+        
+        <main className="relative overflow-hidden custom-pattern-3">
           <Navigator />
           {children}
           <Footer />

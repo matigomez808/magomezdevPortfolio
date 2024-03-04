@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 150" fill="none">
+  <rect width="300" height="150" fill="#802b00"/>
+  <rect width="270" height="120" x="15" y="15" fill="#4d1a00"/>
+  <path d="M0,0L300,0L300,150L0,150Z" stroke="black" stroke-width="3"/>
+  <path d="
+    M15,15
+    L284,15
+    L284,135
+    L15,135
+    Z" stroke="black" stroke-width="1"/>
+  <path d="M0,0L15,15" stroke="black" stroke-width="1"/>
+  <path d="M300,0L284,15" stroke="black" stroke-width="1"/>
+  <path d="M300,150L284,135" stroke="black" stroke-width="1"/>
+  <path d="M0,150L15,135" stroke="black" stroke-width="1"/>
+</svg>

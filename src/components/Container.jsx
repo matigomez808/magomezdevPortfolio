@@ -1,4 +1,4 @@
-import "../app/globals.css"
+import "../app/(home)/globals.css"
 
 export const Container = ({ children }) => {
   return (

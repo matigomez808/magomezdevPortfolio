@@ -20,7 +20,7 @@ export const metadata = {
     publishedTime: "2024-02-09T11:42:10.367Z",
     images: [
       {
-        url: "https://magomezdev.tech/preview2.png",
+        url: "https://magomezdev-portfolio.vercel.app/preview2.png",
         width: 619,
         height: 417,
       },

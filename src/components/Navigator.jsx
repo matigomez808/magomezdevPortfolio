@@ -1,17 +1,26 @@
-import Link from "next/link"
+
+
+import AnimatedLink from "./AnimatedLink";
+import classNames from "classnames";
+
+const btnStyle = classNames(
+  "border-none font-bold text-xl px-4 rounded"
+)
+
 
 const Navigator = () => {
   return (
-    <nav className="mx-auto max-w-7xl bg-zinc-300 pt-8 px-8 text-pretty">
-      <Link href="/" className="border-none font-bold text-xl px-4 active:bg-[#07876a] active:bg-opacity-90 focus:outline-none focus:ring-0 focus:bg-[#07876a] focus:bg-opacity-60 hover:bg-[#07876a] hover:bg-opacity-30 rounded-lg">
+    <nav id="top" className="flex flex-row mx-auto max-w-7xl bg-zinc-300 pt-8 px-8 text-pretty bg-opacity-80 md:bg-opacity-100">
+
+      <AnimatedLink href="/" className={btnStyle}>
         Home
-      </Link>
-      <Link href="/cv" className="border-none font-bold text-xl px-4 active:bg-[#07876a] active:bg-opacity-90 focus:outline-none focus:ring-0 focus:bg-[#07876a] focus:bg-opacity-60 hover:bg-[#07876a] hover:bg-opacity-30 rounded-lg">
+      </AnimatedLink>
+      <AnimatedLink href="/cv" className={btnStyle}>
         CV
-      </Link>
-      <Link href="/blog" className="border-none font-bold text-xl px-4 active:bg-[#07876a] active:bg-opacity-90 focus:outline-none focus:ring-0 focus:bg-[#07876a] focus:bg-opacity-60 hover:bg-[#07876a] hover:bg-opacity-30 rounded-lg">
+      </AnimatedLink>
+      <AnimatedLink href="/blog" className={btnStyle}>
         Blog
-      </Link>
+      </AnimatedLink>
     </nav>  
   )
 }

@@ -8,7 +8,7 @@ import { Container } from "./Container"
 export const Footer = () => {
   return (
       <Container>
-      <footer className="flex flex-col pb-8">
+      <footer className="">
         <p className="text-center my-2">
           Mis links:
         </p>

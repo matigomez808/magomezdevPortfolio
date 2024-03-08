@@ -1,3 +1,4 @@
+'use client'
 
 import Image from "next/image";
 import Java from "./icons/javaIcon.svg";
@@ -12,6 +13,8 @@ import Material from "./icons/materialIcon.svg";
 import Slideshow from "./Slideshow";
 import ContainerLanding from "./ContainerLanding";
 import ContainerSection from "./ContainerSection";
+import { motion } from "framer-motion";
+import { Container } from "./Container";
 
 const links = [
   {
@@ -41,13 +44,19 @@ export default function Landing() {
   return (
     <div>
       <div
-        id="top"
-        className="mx-auto max-w-7xl bg-zinc-300 pt-8 px-8 bg-opacity-80 md:bg-opacity-100"
-      >
-        <span className="font-semibold">{">_"}</span>magomezdev
+      className="max-w-7xl bg-zinc-300 mx-auto pt-4 px-8 text-pretty bg-opacity-80 md:bg-opacity-100">
+        <motion.div
+          whileInView={{ x: 0, opacity: 1, transition: 200 }}
+          initial={{ x: -100, opacity: 0 }}
+        >
+          <span className="font-semibold">{">_"}</span>magomezdev
+        </motion.div>
       </div>
       <ContainerLanding id="head">
-        <div>
+        <motion.div
+          whileInView={{ x: 0, opacity: 1, transition: 200 }}
+          initial={{ x: -100, opacity: 0 }}
+        >
           <h2 id="Mati-Gomez" className="text-4xl font-bold tracking-tight text-black sm:text-6xl ">
             Mati Gomez
           </h2>
@@ -63,18 +72,25 @@ export default function Landing() {
               profesional.
             </p>
           </article>
-        </div>
-        <aside>
+        </motion.div>
+        <motion.aside
+          whileInView={{ x: 0, opacity: 1, transition: 200 }}
+          initial={{ x: 100, opacity: 0 }}
+        >
           <Image
             className="rounded-3xl self-center mx-auto shadow-sm pt-4 sm:p-4"
             src="/carnet.jpg"
             alt="headshot de Mati Gomez"
-            height={300}
-            width={300}
+            height={325}
+            width={325}
             priority
           />
-        </aside>
-        <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none col-span-full">
+        </motion.aside>
+        <motion.div 
+        className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none col-span-full"
+        whileInView={{opacity:1, transition: 300}}
+        initial={{opacity: 0}}
+        >
           <h2 className="text-xl font-bold lg:text-left sm:text-center">
             Proyectos
           </h2>
@@ -88,8 +104,13 @@ export default function Landing() {
               </div>
             ))}
           </div>
-        </div>
-        <section id="skills" className="col-span-full">
+        </motion.div>
+        <motion.section 
+        id="skills" 
+        className="col-span-full pt-8"
+        whileInView={{opacity:1, transition: 400}}
+        initial={{opacity: 0}}
+        >
           <h2 className="text-xl font-bold mt-4 text-center col-span-full">
             Skills
           </h2>
@@ -100,13 +121,17 @@ export default function Landing() {
               </div>
             ))}
           </div>
-        </section>
+        </motion.section>
       </ContainerLanding>
       <ContainerSection>
-        <div className="col-span-full mt-6">
+        <motion.div 
+        className="col-span-full "
+        whileInView={{opacity:1, transition: 400}}
+        initial={{opacity: 0}}
+        >
           <h2
             id="torre-de-mabel"
-            className="text-xl font-bold mt-4 text-center"
+            className="text-xl font-bold mt-4 text-center scroll-mt-10"
           >
             La Torre de Mabel
           </h2>
@@ -120,11 +145,15 @@ export default function Landing() {
             width={1000}
             height={667}
           />
-        </div>
+        </motion.div >
       </ContainerSection>
       <ContainerSection>
-        <div className="col-span-full mt-6">
-          <h2 id="agur" className="text-xl font-bold mt-4 text-center">
+        <motion.div 
+        className="col-span-full"
+        whileInView={{opacity:1, transition: 400}}
+        initial={{opacity: 0}}
+        >
+          <h2 id="agur" className="text-xl font-bold mt-4 text-center scroll-mt-10">
             Agur
           </h2>
           <article className="mt-6">
@@ -137,7 +166,7 @@ export default function Landing() {
             imagenes colgadas en un bucket externo.
           </article>
           <Slideshow />
-        </div>
+        </motion.div >
       </ContainerSection>
     </div>
   );

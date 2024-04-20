@@ -1,19 +1,4 @@
 
-let lst = []
-
-class Story {
-  constructor(title, text, prompts) {
-    this.title = title;
-    this.text = text;
-    this.prompts = prompts;
-    this.palabras = [];
-  }
-  promptUser() {
-    
-  }
-}
-
-
 export const dino = {
   titulo: `El dinosaurio, de Augusto Monterroso`,
   cuentoOG : `Cuando despertó, el dinosaurio todavía estaba allí.`,
@@ -42,6 +27,8 @@ export const jodo = {
   cuentoMod: ''
 };
  */
+
+
 
 /*
   BY-GEMINI

@@ -1,19 +1,15 @@
 import { useTorreStore } from "@/store/store"
 
 
-export const Bienvenide = ({ props }) => {
+export const Bienvenide = () => {
 
   const nextStep = useTorreStore((state) => state.nextStep);
-  
-
-  const { genText, subtitles, mainText } = { ...props }
-
-
 
   const handleEntrar = () => {
     nextStep();
   }
 
+  
 
   return (
     <div className="flex flex-col">
@@ -31,12 +27,13 @@ export const Bienvenide = ({ props }) => {
         </oi>
       </section>
       <div className=" flex justify-center">
-        <button 
-          className="text-3xl font-bold py-8 px-16 rounded-md hover:bg-gray-600" 
-          onClick={handleEntrar}
-          >
-          Entrar a la torre
-        </button>
+
+        <form action={handleEntrar}>
+          <button className="text-3xl font-bold py-8 px-16 rounded-md hover:bg-gray-600">
+            Entrar a la torre
+          </button>
+        </form>
+       
       </div>
     </div>
   )

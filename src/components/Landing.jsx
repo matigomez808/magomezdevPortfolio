@@ -10,11 +10,9 @@ import React from "./icons/reactIcon.svg";
 import Spring from "./icons/springIcon.svg";
 import Tailwind from "./icons/tailwindIcon.svg";
 import Material from "./icons/materialIcon.svg";
-import Slideshow from "./Slideshow";
-import ContainerLanding from "./ContainerLanding";
-import ContainerSection from "./ContainerSection";
+import Slideshow from "./UI/Slideshow";
 import { motion } from "framer-motion";
-import { Container } from "./Container";
+import { Container } from "./UI/Container";
 
 const links = [
   {
@@ -43,16 +41,15 @@ const skills = [
 export default function Landing() {
   return (
     <div>
-      <div
-      className="max-w-7xl bg-zinc-300 mx-auto pt-4 px-8 text-pretty bg-opacity-80 md:bg-opacity-100">
+      <Container id="nametag" element="section">
         <motion.div
           whileInView={{ x: 0, opacity: 1, transition: 200 }}
           initial={{ x: -100, opacity: 0 }}
         >
           <span className="font-semibold">{">_"}</span>magomezdev
         </motion.div>
-      </div>
-      <ContainerLanding id="head">
+      </Container>
+      <Container id="head" element="section" layout="lg:grid lg:grid-cols-2 lg:gap-2 sm:flex sm:flex-col">
         <motion.div
           whileInView={{ x: 0, opacity: 1, transition: 200 }}
           initial={{ x: -100, opacity: 0 }}
@@ -122,8 +119,8 @@ export default function Landing() {
             ))}
           </div>
         </motion.section>
-      </ContainerLanding>
-      <ContainerSection>
+      </Container>
+      <Container element="section">
         <motion.div 
         className="col-span-full "
         whileInView={{opacity:1, transition: 400}}
@@ -146,8 +143,8 @@ export default function Landing() {
             height={667}
           />
         </motion.div >
-      </ContainerSection>
-      <ContainerSection>
+      </Container>
+      <Container element="section">
         <motion.div 
         className="col-span-full"
         whileInView={{opacity:1, transition: 400}}
@@ -167,7 +164,7 @@ export default function Landing() {
           </article>
           <Slideshow />
         </motion.div >
-      </ContainerSection>
+      </Container>
     </div>
   );
 }

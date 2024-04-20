@@ -1,0 +1,46 @@
+[
+  {
+    "id" : 1,
+    "title" : "El dinosaurio, de Augusto Monterroso",
+    "fullStory" : "Cuando despertó, el dinosaurio todavía estaba allí.",
+    "choppedStory" : ["Cuando ", ", el ", " todavía estaba allí" ],
+    "words" : ["Verbo en pasado", "Sustantivo masculino"]
+  },
+  {
+    "id" : 2,
+    "title" : "Un sueño, de Jorge Luis Borges",
+    "fullStory" : "En un desierto lugar del Irán hay una no muy alta torre de piedra, sin puerta ni ventana. En la única habitación (cuyo piso es de tierra y que tiene la forma de círculo) hay una mesa de maderas y un banco. En esa celda circular, un hombre que se parece a mi escribe en caracteres que no comprendo un largo poema sobre un hombre que en otra celda circular escribe un poema sobre un hombre que en otra celda circular... \n El proceso no tiene fin y nadie podrá leer lo que los prisioneros escriben.",
+    "choppedStory": ["En un ", " lugar del Irán hay una no muy alta torre de ", ", sin puerta ni ventana. En la única habitación (cuyo piso es de tierra y que tiene la forma de círculo) hay una mesa de maderas y un ", ". En esa celda circular, un hombre que se parece a ", " escribe en caracteres que no comprende un largo poema sobre un ", " que en otra celda circular escribe un poema sobre un ", " que en otra celda circular… El proceso no tiene fin y nadie podrá leer lo que los ", " escriben."],
+    "words" : ["Adjetivo", "Sustantivo", "Sustantivo", "Sustantivo", "Sustantivo", "Sustantivo plural"]
+  },
+  {
+    "id" : 3,
+    "title" : "Final para un cuento fantástico, de I.A. Ireland" ,
+    "fullStory" : "-¡Que extraño! -dijo la muchacha avanzando cautelosamente-. ¡Qué puerta más pesada! \n La tocó, al hablar, y se cerró de pronto, con un golpe. \n -¡Dios mío! -dijo el hombre-. Me parece que no tiene picaporte del lado de adentro. ¡Cómo, nos han encerrado a los dos! \n -A los dos no. A uno solo -dijo la muchacha. \n Pasó a través de la puerta y desapareció.",
+    "choppedStory" : ["-¡"," -dijo la muchacha avanzando ", "-. ¡Qué puerta más ", "! \n La tocó, al hablar, y se cerró de pronto, con un golpe. \n -¡Dios mío! -dijo el hombre-. Me parece que no tiene ", " del lado de adentro. ¡Cómo, nos han encerrado a los dos! \n -A los dos no. A uno solo -dijo la muchacha. \n Pasó a través de la ", " y desapareció."],
+    "words" : ["Expresión de asombro", "Adverbio de modo", "Adjetivo femenino", "Sustantivo", "Sustantivo femenino"]
+  },
+  {
+    "id" : 4,
+    "title" : "Una inmortalidad, de Carlos Almira" ,
+    "fullStory" : "El poeta de moda murió, y levantaron una estatua. Al pie grabaron uno de los epigramas que le valieron la inmortalidad y que ahora provoca la indiferencia o la risa, como la chistera, el corbatín y la barba de chivo del pobre busto. El Infierno no es de fuego ni de hielo, sino de bronce imperecedero.",
+    "choppedStory" : ["El ", " de moda murió, y levantaron una ",". Al pie grabaron uno de los "," que le valieron la inmortalidad y que ahora provoca la indiferencia o la risa, como la chistera, el ", " y la barba de chivo del pobre busto. El Infierno no es de "," ni de ",", sino de bronce "],
+    "words" :["Sustantivo masculino","Sustantivo femenino","Sustantivo masculino","Sustantivo masculino","Sustantivo","Sustantivo", "Adjetivo" ]
+  },
+  {
+    "id" : 5,
+    "title" : "Sueño de la mariposa, de Chuang Tzu " ,
+    "fullStory" : "Chuang Tzu soñó que era una mariposa. Al despertar ignoraba si era Tzu que había soñado que era una mariposa o si era una mariposa y estaba soñando que era Tzu.",
+    "choppedStory" : [" soñó que era una ",". Al despertar ignoraba si era "," que había soñado que era una ", " o si era una "," y estaba soñando que era "],
+    "words" :["Sustantivo propio","Sustantivo femenino"]
+  },
+  {
+    "id" : 6,
+    "title" : "70 - Ana María Shua" ,
+    "fullStory" : "Con una mueca feroz, chorreando sangre y baba, el hombre lobo separa las mandíbulas y desnuda los colmillos amarillos. Un curioso zumbido perfora el aire. El hombre lobo tiene miedo. El dentista también.",
+    "choppedStory" : ["Con una mueca ",", chorreando sangre y baba, el hombre "," separa las mandíbulas y desnuda los colmillos amarillos. Un ", " zumbido perfora el aire. El hombre "," tiene miedo. El dentista también."],
+    "words" :["Adjetivo femenino", "Sustantivo", "Adjetivo"]
+  }
+
+]
+

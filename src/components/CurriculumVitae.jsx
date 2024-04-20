@@ -1,11 +1,11 @@
 import Link from "next/link"
-import ContainerCV from "./ContainerCV"
+import { Container } from "./UI/Container"
 
 
 export const CurriculumVitae = () => {
   return (
     <>
-      <ContainerCV>
+      <Container>
         <h1 className="text-right font-light text-3xl">Matías Gómez</h1>
         <h2 className="text-right font-light mt-1">Desarrollador Fullstack</h2>
         <h3 className="text-right font-light mt-1">Santa Rosa, La Pampa, Argentina</h3>
@@ -53,7 +53,7 @@ export const CurriculumVitae = () => {
           href="https://drive.google.com/file/d/1urk6A4kvURCqOif-gppgVfdnSseu7t07/view?usp=sharing"
           target="_blank">Ver la version en PDF</Link>
         
-      </ContainerCV>
+      </Container>
     </>
   )
 }

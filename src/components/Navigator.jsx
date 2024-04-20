@@ -1,7 +1,8 @@
 
 
-import AnimatedLink from "./AnimatedLink";
+import AnimatedLink from "./UI/AnimatedLink";
 import classNames from "classnames";
+import { Container } from "./UI/Container";
 
 const btnStyle = classNames(
   "border-none font-bold text-xl px-4 rounded"
@@ -10,18 +11,17 @@ const btnStyle = classNames(
 
 const Navigator = () => {
   return (
-    <nav id="top" className="flex flex-row mx-auto max-w-7xl bg-zinc-300 pt-8 px-8 text-pretty bg-opacity-80 md:bg-opacity-100">
-
-      <AnimatedLink href="/" className={btnStyle}>
-        Home
-      </AnimatedLink>
-      <AnimatedLink href="/cv" className={btnStyle}>
-        CV
-      </AnimatedLink>
-      <AnimatedLink href="/blog" className={btnStyle}>
-        Blog
-      </AnimatedLink>
-    </nav>  
+    <Container id="top" section="nav" padding="pt-8 px-8" layout="flex flex-row">
+        <AnimatedLink href="/" className={btnStyle}>
+          Home
+        </AnimatedLink>
+        <AnimatedLink href="/cv" className={btnStyle}>
+          CV
+        </AnimatedLink>
+        <AnimatedLink href="/blog" className={btnStyle}>
+          Blog
+        </AnimatedLink>
+    </Container>
   )
 }
 

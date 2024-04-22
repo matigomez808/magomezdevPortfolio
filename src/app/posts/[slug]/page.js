@@ -1,6 +1,6 @@
 
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/api";
+import { getAllPosts, getPostBySlug } from "../lib/apiBlog";
 
 import markdownToHtml from "@/lib/markdownToHtml";
 import { Container } from "@/components/UI/Container";

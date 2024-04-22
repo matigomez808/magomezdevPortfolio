@@ -1,8 +1,8 @@
-import { Container } from "./Container"
-import Intro from "./Intro"
-import { HeroPost } from "./HeroPost"
-import { getAllPosts } from "@/lib/api"
-import { MoreStories } from "./MoreStories"
+import { Container } from "./UI/Container"
+import Intro from "./Blog/Intro"
+import { HeroPost } from "./Blog/HeroPost"
+import { getAllPosts } from "@/lib/apiBlog.js"
+import { MoreStories } from "./Blog/MoreStories"
 
 
 export const Blog = () => {
@@ -12,6 +12,7 @@ export const Blog = () => {
   const morePosts = allPosts.slice(1);
 
   return(
+    <>
     <Container>
       <Intro />
       <HeroPost
@@ -22,7 +23,11 @@ export const Blog = () => {
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
         />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-    </Container>
+        </Container>
+        
+        <Container element="section">
+          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        </Container>
+    </>
   )
 }

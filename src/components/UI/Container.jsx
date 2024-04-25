@@ -14,7 +14,7 @@ import "../../app/(home)/globals.css"
 export const Container = ({
   children,
   id="",
-  element = "section",
+  element: Element = "section",
   className = "mx-auto sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg text-pretty",
   background = "bg-zinc-300 bg-opacity-80 md:bg-opacity-100",
   layout = "flex flex-col",
@@ -24,13 +24,13 @@ export const Container = ({
 }) => {
 
   return (
-    <element
+    <Element
       id={`${id}`}
       className={` ${className} ${layout} ${padding} ${background} ${height}`}
             
       {...otherProps} // Pass through any remaining props for future customization
     >
       {children}
-    </element>
+    </Element>
   );
 };

@@ -1,0 +1,62 @@
+{
+  "landing": {
+    "title": "Desarrollador fullstack situado en La Pampa, Argentina",
+    "abstract": "Apasionado por el desarrollo de software. Aprender de forma autodidacta me ayudó a re-entender a esta herramienta que son las TI. Mi formación previa en comunicación, audiovisuales y carpintería me acompañan en este nuevo trayecto de mi carrera profesional.",
+    "torre": "Esta es mi primera aplicación. Es un pequeño juego en el que introducimos palabras al azar en un relato y despues vemos qué relato nuevo construimos. Es verdaderamente sencilla pero divertida.",
+    "agur": "Este es un sitio de Ecommerce para un emprendimiento de ropa interior en mi ciudad. Es mi primer proyecto con React. Es bastante sencillo y aún sigue en desarrollo. Comenzó como un proyecto 100% React y de a poco fui incorporando frameworks como Material UI y Zustand para manejo del state. Tiene también una integración con MongoDB Atlas con la que accede a una lista de productos con sus imagenes colgadas en un bucket externo.",
+    "projects": "Proyectos",
+    "links": {
+      "agur": "Ecommerce para un emprendimiento local.",
+      "torre": "Pequeño juego de historias locas."
+    }
+  },
+  "cv": {
+    "pageTitle": "Mi CV",
+    "title": "Desarrollador Fullstack",
+    "location": "Santa Rosa, La Pampa, Argentina",
+    "aboutMeTitle": "Acerca de mí",
+    "aptitudes": "Estoy familiarizado con el lenguaje Javascript y varias de sus librerías. También con Java y Spring Boot. Tengo aptitud para el desarrollo de servicios web, APIs, arquitectura REST, Clean Code y metodología Agile. Estudié inglés por diez años y culminé ese proceso de aprendizaje graduandome en el Tamaki College de Auckland durante un año de Intercambio Cultural con AFS. Soy versátil, adaptable y estoy encantado por el desarrollo de software. Cuento con un amplio bagaje de habilidades producto de desarrollarme profesionalmente en diversos campos. Siempre orientado a la resolución creativa y práctica de problemas.",
+    "education": {
+      "title" : "Formación",
+      "item1Title": " - Python for Everybody - Programming basics by Dr. Charles Severance",
+      "item1Date" : "2021",
+      "item1Content" : "Python, OOP",
+
+      "item2Title": " - Alura Latam - Graduado de Oracle Next Education Backend development",
+      "item2Date" : "2022 - 2023",
+      "item2Content" : "Java + Spring | Agile | Bases de datos relacionales - Oracle Cloud Infrastructure",
+
+      "item3Title": " - FreeCodeCamp - JavaScript Algorithms and Data Structures.  ",
+      "item3Date" : "2023",
+      "item3Content" : "Librerias de desarrollo Frontend Front End. Desarrollo Backend y APIs",
+
+      "item4Title": " - Oracle Cloud Infrastructure",
+      "item4Date" : "2023",
+      "item4Content" : "Foundations Associate Certificate by Oracle Learn",
+
+      "item5Title": " - Autodidacta - Desarrollo Fullstack",
+      "item5Date": "2023 - 2024",
+      "item5Content" : "React, NextJS, Tailwind, Zustand, NoSQL and more.",
+
+      "englishTitle": " - First Certificate of English - Cambridge",
+      "englishDate" : "2009",
+      "englishContent" : "B2"
+    },
+    "experience" : {
+      "title": "Trayecto",
+      "description": "",
+      "item1Date": "2011 - 2012",
+      "item1Title" : " - Mesa de entrada Fundación Chadileuvú",
+      "item2Date" : "2013 - 2016",
+      "item2Title" : " - Operador de radio en FM La Tosca, Radio Mitre y Radio Kermes",
+      "item3Date": "2019",
+      "item3Title" : " - Co-Realizador de Vías al Olvido para CPE TV",
+      "item4Date" : "2021 - 2022",
+      "item4Title" : " - Carpintería artesanal",
+      "item5Date" : "2021 - presente",
+      "item5Title" : " - Fotografía, videografía y Community Manager en Agur"
+    },
+    "link" : "Ver la versión en PDF"
+    
+  }
+}

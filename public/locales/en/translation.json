@@ -1,0 +1,56 @@
+{
+  "landing": {
+    "title": "Fullstack developer based in La Pampa, Argentina",
+    "abstract": "Passionate about software development. The self taught path helped me reconnect with systems in a different way. My prior fomation in communication, audiovisuals and carpentry shapes my versatile profile in this new pursuit.",
+    "torre": "This is the very first I built. It's a madlibs. It takes a series of words and fills up a randomly picked micro story from a handpicked list. It's a really simple and fun game. At the moment all the stories are in spanish.",
+    "agur": "This is an Ecommerce site for a real brand I work in as a community manager/photographer. It's a WiP and my first approach to web-dev. As my first React project it started as 100% React and I gradually added different frameworks. Also through this project I taught myself some NoSQL DB and integrated a very simple DB with MongoDB",
+    "projects": "Projects",
+    "links": {
+      "agur": "Ecommerce for a local business.",
+      "torre": "Madlibs game in Python."
+    }
+  },
+  "cv": {
+    "pageTitle": "My CV",
+    "titale": "",
+    "location": "",
+    "aboutMeTitle": "About me",
+    "aptitudes": "I’m well acquainted with JavaSript and frameworks like React, NextJS and various UI frameworks as well. I also know my way around web api services, RESTful architecture and the importance of Clean Code. I’m a native Spanish speaker but since I finished High School in New Zealand I can fluently communicate in English. Through a vast experience in different fields I built versatility and adaptability. At the moment I’m totally invested in software development. I thrive in creative problem solving and I’m always looking forward to furthering my knowledge.",
+    "education": {
+      "title": "Formation",
+      "item1Title": " - Python for Everybody - Programming basics by Dr. Charles Severance",
+      "item1Date": "2021",
+      "item1Content": "Python, OOP",
+      "item2Title": " - Alura Latam - Graduated from Oracle Next Education programme Backend development",
+      "item2Date": "2022 - 2023",
+      "item2Content": "Java + Spring | Agile | Relational Databases Oracle Cloud Infrastructure",
+      "item3Title": " - FreeCodeCamp - JavaScript Algorithms and Data Structures.  ",
+      "item3Date": "2023",
+      "item3Content": "Front End Development Libraries. Back End Development and APIs.",
+      "item4Title": " - Oracle Cloud Infrastructure",
+      "item4Date": "2023",
+      "item4Content": "Foundations Associate Certificate by Oracle Learn",
+      "item5Title": " - Self taught - Fullstack development. ",
+      "item5Date": "2023 - 2024",
+      "item5Content": "React, NextJS, Tailwind, Zustand, NoSQL and more.",
+      "englishTitle": " - First Certificate of English - Cambridge",
+      "englishDate": "2009",
+      "englishContent": "B2"
+    },
+    "experience": {
+      "title": "Journey",
+      "description": "",
+      "item1Date": "2011 - 2012",
+      "item1Title": " - Reception desk at Fundación Chadileuvú",
+      "item2Date": "2013 - 2016",
+      "item2Title": " - Radio Operator at FM La Tosca, Radio Mitre and Radio Kermes",
+      "item3Date": "2019",
+      "item3Title": " - Co-Realization of Vías al Olvido for CPE TV",
+      "item4Date": "2021 - 2022",
+      "item4Title": " - Handcrafted woodworking",
+      "item5Date": "2021 - presente",
+      "item5Title": " - Photography, videography and Community Manager at Agur"
+    },
+    "link": "See PDF version"
+  }
+}

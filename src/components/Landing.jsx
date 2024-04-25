@@ -48,7 +48,7 @@ export default function Landing() {
 
   return (
     <div>
-      <Container id="nametag" padding="py-2" >
+      <Container id="nametag" padding="px-8 py-2" >
         <motion.div
           whileInView={{ x: 0, opacity: 1, transition: 200 }}
           initial={{ x: -100, opacity: 0 }}

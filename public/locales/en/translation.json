@@ -8,12 +8,13 @@
     "links": {
       "agur": "Ecommerce for a local business.",
       "torre": "Madlibs game in Python."
-    }
+    },
+    "gallery" : "Press image to see more"
   },
   "cv": {
     "pageTitle": "My CV",
-    "titale": "",
-    "location": "",
+    "title": "Fullstack Developer",
+    "location": "Santa Rosa, La Pampa, Argentina",
     "aboutMeTitle": "About me",
     "aptitudes": "I’m well acquainted with JavaSript and frameworks like React, NextJS and various UI frameworks as well. I also know my way around web api services, RESTful architecture and the importance of Clean Code. I’m a native Spanish speaker but since I finished High School in New Zealand I can fluently communicate in English. Through a vast experience in different fields I built versatility and adaptability. At the moment I’m totally invested in software development. I thrive in creative problem solving and I’m always looking forward to furthering my knowledge.",
     "education": {

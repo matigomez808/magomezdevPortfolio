@@ -8,7 +8,8 @@
     "links": {
       "agur": "Ecommerce para un emprendimiento local.",
       "torre": "Pequeño juego de historias locas."
-    }
+    },
+    "gallery" : "Toca la imagen para ver mas"
   },
   "cv": {
     "pageTitle": "Mi CV",

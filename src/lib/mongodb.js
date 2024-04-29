@@ -8,13 +8,15 @@ const uri = process.env.DATABASE_URL;
 let cachedConnection = null;
 
 async function connectToDatabase() {
+  const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
+
   if (cachedConnection) {
     return cachedConnection;
   }
 
   try {
     // Create a new Mongoose connection
-    const connection = await mongoose.connect(uri, options);
+    const connection = await mongoose.connect(uri, clientOptions);
     console.log("Connected to MongoDB Atlas!");
 
     // Cache the connection for later use

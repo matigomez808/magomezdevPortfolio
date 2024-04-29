@@ -7,7 +7,7 @@ import { useEffect } from "react"
 
 
 async function getData() {
-  const res = await fetch('https://magomezdev-portfolio-git-dbtest-matigomez808s-projects.vercel.app/api/cuentos');
+  const res = await fetch('https://github.com/matigomez808/magomezdevPortfolio/tree/dbTest/api/cuentos');
 
   if (!res.ok) {
     throw new Error(`Failed to fetch data: ${res.status} ${res.statusText}`);

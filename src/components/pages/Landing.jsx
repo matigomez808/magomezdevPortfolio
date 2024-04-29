@@ -1,18 +1,18 @@
 'use client'
 
 import Image from "next/image";
-import Java from "./icons/javaIcon.svg";
-import Js from "./icons/jsIcon.svg";
-import Mongo from "./icons/mongoIcon.svg";
-import Next from "./icons/nextIcon.svg";
-import Python from "./icons/pythonIcon.svg";
-import React from "./icons/reactIcon.svg";
-import Spring from "./icons/springIcon.svg";
-import Tailwind from "./icons/tailwindIcon.svg";
-import Material from "./icons/materialIcon.svg";
-import Slideshow from "./UI/Slideshow";
+import Java from "../icons/javaIcon.svg";
+import Js from "../icons/jsIcon.svg";
+import Mongo from "../icons/mongoIcon.svg";
+import Next from "../icons/nextIcon.svg";
+import Python from "../icons/pythonIcon.svg";
+import React from "../icons/reactIcon.svg";
+import Spring from "../icons/springIcon.svg";
+import Tailwind from "../icons/tailwindIcon.svg";
+import Material from "../icons/materialIcon.svg";
+import Slideshow from "../UI/Slideshow";
 import { motion } from "framer-motion";
-import { Container } from "./UI/Container";
+import { Container } from "../UI/Container";
 import { useTranslation } from "react-i18next";
 import i18n from "@/lib/i18n";
 import { Suspense } from "react";

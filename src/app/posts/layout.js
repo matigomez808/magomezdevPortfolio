@@ -1,8 +1,8 @@
 import { Montserrat } from "next/font/google";
 import "../(home)/layout";
 import { Analytics } from "@vercel/analytics/react"
-import { Footer } from "@/components/Footer";
-import Navigator from "@/components/Navigator";
+import { Footer } from "@/components/UI/Footer";
+import Navigator from "@/components/UI/Navigator";
 
 
 const montserrat = Montserrat({ subsets: ["latin"] });

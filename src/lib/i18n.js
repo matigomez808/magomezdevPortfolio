@@ -20,7 +20,7 @@ i18n
       },
     },
     fallbackLng: 'en', // Default language fallback
-    debug: true, // Enable debug mode
+    debug: false, // Enable debug mode
     interpolation: {
       escapeValue: false, // React already does escaping
     },

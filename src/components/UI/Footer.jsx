@@ -1,9 +1,9 @@
 
-import Github from "./icons/Github.svg"
-import Linkedin from "./icons/Linkedin.svg"
-import Instagram from "./icons/Instagram.svg"
+import Github from "../icons/Github.svg"
+import Linkedin from "../icons/Linkedin.svg"
+import Instagram from "../icons/Instagram.svg"
 import Link from "next/link"
-import { Container } from "./UI/Container"
+import { Container } from "../UI/Container"
 
 export const Footer = () => {
   return (

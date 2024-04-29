@@ -1,8 +1,15 @@
+import dotenv from 'dotenv';
 import mongoose from 'mongoose';
+dotenv.config();
 
+// Load the MongoDB Atlas URI from the environment variables
 const uri = process.env.DATABASE_URL;
 
-const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
+// Mongoose options
+const options = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+};
 
 let cachedConnection = null;
 
@@ -13,16 +20,16 @@ async function connectToDatabase() {
 
   try {
     // Create a new Mongoose connection
-    const connection = await mongoose.connect(uri, clientOptions);
-    console.log("Connected to MongoDB!");
+    const connection = await mongoose.connect(uri, options);
+    console.log("Connected to MongoDB Atlas!");
 
     // Cache the connection for later use
     cachedConnection = connection;
     return connection;
-  } catch (err) {
-    console.error("Failed to connect to MongoDB:", err);
-    throw err;
+  } catch (error) {
+    console.error("Failed to connect to MongoDB Atlas:", error);
+    throw error;
   }
 }
 
-module.exports = connectToDatabase;
+export default connectToDatabase;

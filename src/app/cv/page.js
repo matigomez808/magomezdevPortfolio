@@ -1,4 +1,4 @@
-import { CurriculumVitae } from "@/components/CurriculumVitae"
+import { CurriculumVitae } from "@/components/pages/CurriculumVitae"
 
 const CV = () => {
   return <CurriculumVitae />

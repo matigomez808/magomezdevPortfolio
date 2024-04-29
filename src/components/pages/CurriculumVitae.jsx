@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import { Container } from "./UI/Container"
+import { Container } from "../UI/Container"
 import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
 

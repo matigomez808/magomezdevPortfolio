@@ -1,10 +1,10 @@
 'use client'
 
-import AnimatedLink from "./UI/AnimatedLink";
+import AnimatedLink from "./AnimatedLink";
 import classNames from "classnames";
-import { Container } from "./UI/Container";
+import { Container } from "./Container";
 import LanguageSwitcher from "./LanguageSwitcher";
-import { Box } from "./UI/Box";
+import { Box } from "./Box";
 import { Suspense } from "react";
 
 const btnStyle = classNames(

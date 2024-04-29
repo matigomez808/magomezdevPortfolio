@@ -11,11 +11,11 @@ const AnimatedLink = ({ href, children, ...props }) => {
       <motion.div
         {...props}
         whileHover={{
-          backgroundColor: "#0ac294",
+          backgroundColor: "#006600",
           transition: { duration: 0.5, ease: "easeOut" }
         }}
         whileTap={{
-          backgroundColor: "#0ac294",
+          backgroundColor: "#006600",
           scale: 0.9
         }}
         

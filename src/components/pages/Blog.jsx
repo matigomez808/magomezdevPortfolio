@@ -1,8 +1,8 @@
-import { Container } from "./UI/Container"
-import Intro from "./Blog/Intro"
-import { HeroPost } from "./Blog/HeroPost"
-import { getAllPosts } from "../lib/apiBlog"
-import { MoreStories } from "./Blog/MoreStories"
+import { Container } from "../UI/Container"
+import Intro from "../Blog/Intro"
+import { HeroPost } from "../Blog/HeroPost"
+import { getAllPosts } from "../../lib/apiBlog"
+import { MoreStories } from "../Blog/MoreStories"
 
 
 export const Blog = () => {

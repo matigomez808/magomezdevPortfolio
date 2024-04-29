@@ -1,13 +1,13 @@
 
-import Github from "./icons/Github.svg"
-import Linkedin from "./icons/Linkedin.svg"
-import Instagram from "./icons/Instagram.svg"
+import Github from "../icons/Github.svg"
+import Linkedin from "../icons/Linkedin.svg"
+import Instagram from "../icons/Instagram.svg"
 import Link from "next/link"
-import { Container } from "./UI/Container"
+import { Container } from "../UI/Container"
 
 export const Footer = () => {
   return (
-      <Container element="footer">
+      <Container element="footer" padding="p-1">
         <p className="text-center my-2">
           Mis links:
         </p>
@@ -18,6 +18,7 @@ export const Footer = () => {
           <Link href="https://www.instagram.com/matigomez808/" target="_blank" className="px-2"><Instagram height={30} width={30} /></Link>
           <div className="flex-1"></div>
         </div>
+        
     </Container>
   )
 

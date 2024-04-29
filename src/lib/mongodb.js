@@ -5,12 +5,6 @@ dotenv.config();
 // Load the MongoDB Atlas URI from the environment variables
 const uri = process.env.DATABASE_URL;
 
-// Mongoose options
-const options = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-};
-
 let cachedConnection = null;
 
 async function connectToDatabase() {

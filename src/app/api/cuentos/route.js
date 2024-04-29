@@ -8,7 +8,7 @@ export const GET = async (request) => {
     await connectToDatabase();
     const cuentos = await cuento.find();
     const headers = {
-      "Access-Control-Allow-Origin": "http://magomezdev.tech/*", // Allow requests from any origin
+      "Access-Control-Allow-Origin": "https://magomezdev.tech/*", // Allow requests from any origin
       "Access-Control-Allow-Methods": "GET", // Allow GET requests
       "Access-Control-Allow-Headers": "Content-Type", // Allow Content-Type header
     };

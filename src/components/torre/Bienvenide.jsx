@@ -13,7 +13,7 @@ export const Bienvenide = () => {
 
   return (
     <div className="flex flex-col">
-      <p className="font-light text-pretty py-4">
+      <p className="font-light text-pretty py-4 text-center">
         Bienvenido  la torre de mabel. Una pequeña experiencia narrativa desarrollada originalmente en Python como mi primer programa interactivo. Ahora presentado en React como parte de mi portfolio.
         La idea original sale, como muchas otras, de un video de youtube de FreeCodeCamp de proyectos para novatos. Esta es mi version de madlibs.
       </p>
@@ -29,7 +29,7 @@ export const Bienvenide = () => {
       <div className=" flex justify-center">
 
         <form action={handleEntrar}>
-          <button className="text-3xl font-bold py-8 px-16 rounded-md hover:bg-gray-600">
+          <button className="text-3xl font-bold py-8 px-16 mt-4 mx-auto p-2 text-center  border-solid border-2 rounded-md border-[#006600] hover:bg-[#628862] hover:border-none">
             Entrar a la torre
           </button>
         </form>

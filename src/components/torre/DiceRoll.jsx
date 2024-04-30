@@ -12,14 +12,14 @@ async function getData() {
   if (!res.ok) {
     throw new Error(`Failed to fetch data: ${res.status} ${res.statusText}`);
   }
-  
+
   return res.json();
 }
 
 const NextStep = () => {
   const nextStep = useTorreStore((state) => state.nextStep)
   return (
-    <button onClick={nextStep} >Avanzar</button>
+    <button className="p-2 border-solid border-2 rounded-md border-[#006600] hover:bg-[#628862] hover:border-none" onClick={nextStep} >Avanzar</button>
   )
 }
 
@@ -30,15 +30,15 @@ const Die = () => {
   const allCuentos = useTorreStore((state) => state.allCuentos)
   const cuento = useTorreStore((state) => state.cuento)
 
- 
+
   const dSixRoll = () => {
     let newRoll = Math.floor(Math.random() * 6) + 1
     setRoll(newRoll)
     let pick = allCuentos[newRoll]
     setCuento(pick);
-/*     console.log(pick.title)
-    console.log(pick.fullStory)
-    console.log(pick.words) */
+    /*     console.log(pick.title)
+        console.log(pick.fullStory)
+        console.log(pick.words) */
   }
 
   const handleStep = () => {
@@ -48,10 +48,11 @@ const Die = () => {
   return (
     <div>
       <button
+        className="p-2 border-solid border-2 rounded-md border-[#006600] hover:bg-[#628862] hover:border-none"
         onClick={dSixRoll}>
         Tirar el dado
       </button>
-      {roll !== 0 && <p>El dado dió {roll}. Su historia ya comenzó</p>}
+      {roll !== 0 && <p className="p-2 my-2">El dado dió {roll}. Su historia ya comenzó</p>}
       {cuento && <NextStep />}
     </div>
   )
@@ -63,22 +64,22 @@ export const DiceRoll = () => {
   const setAllCuentos = useTorreStore((state) => state.setAllCuentos)
   const setError = useTorreStore((state) => state.setError)
 
-useEffect(() => {
-  const fetchData = async () => {
-    try {
-      const cuentos = await getData();
-      setAllCuentos(cuentos);
-    } catch ({ message }) {
-      setError(message);
-    }
-  };
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const cuentos = await getData();
+        setAllCuentos(cuentos);
+      } catch ({ message }) {
+        setError(message);
+      }
+    };
 
-  fetchData();
-}, []);
+    fetchData();
+  }, []);
 
-useEffect(() => {
-  console.log("author", author)
-}, [author])
+  useEffect(() => {
+    console.log("author", author)
+  }, [author])
 
   let authorString = ""
 
@@ -96,28 +97,30 @@ useEffect(() => {
   }
 
   return (
-    <div className="flex flex-col">
-      <p>Procedamos a escribir su historia.</p>
+    <div className="flex flex-col text-center">
+      <p className="my-2">Procedamos a escribir su historia.</p>
       {author === "" ? (
         <>
-      <p>Primero firme
-        <input
-          disabled={disabled}
-          onChange={(e) => handleFirma(e)}
-          cols="20"
-          rows="1"
-          placeholder="su nombre"
-          className="px-2 mx-2">
-        </input></p>
-      <button
-        disabled={disabled}
-        hidden={disabled}
-        id="btnFirma"
-        onClick={handleSubmitFirma}>
-        Firmar
-      </button></>) :
-      <p>Hola {author}, escribamos su historia.</p>}
-      
+          <p className="px-2 my-2 mx-auto text-center">Primero firme</p>
+          <input
+            disabled={disabled}
+            onChange={(e) => handleFirma(e)}
+            cols="20"
+            rows="1"
+            placeholder="su nombre"
+            className="px-2 my-2 mx-auto text-center">
+          </input>
+          <button
+            disabled={disabled}
+            hidden={disabled}
+            id="btnFirma"
+            onClick={handleSubmitFirma}
+            className="px-2 my-2 mx-auto text-center border-solid border-2 rounded-md border-[#006600] hover:bg-[#628862] hover:border-none">
+            Firmar
+          </button>
+        </>) :
+        <p className="px-2 my-2 mx-auto text-center">Hola {author}, escribamos su historia.</p>}
+
       <div className="h-[28.125rem] w-[56.25]">
         {author !== "" && <Die />}
       </div>

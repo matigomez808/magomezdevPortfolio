@@ -27,7 +27,6 @@ export const Prompting = () => {
   }, [prompts])
   return (
     <Container id="prompting-box" width="w-full" >
-      <p>A continuación se le pide que ingrese algunas palabras. En caso de necesitar un ejemplo puede poner su cursor sobre el tipo de palabra que desee.</p>
       <ul>
         {fields()}  
       </ul>

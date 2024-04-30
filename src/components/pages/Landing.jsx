@@ -16,6 +16,8 @@ import { Container } from "../UI/Container";
 import { useTranslation } from "react-i18next";
 import i18n from "@/lib/i18n";
 import { Suspense } from "react";
+import AnimatedLink from "../UI/AnimatedLink";
+import Link from "next/link";
 
 
 const skills = [
@@ -155,6 +157,9 @@ export default function Landing() {
             height={667}
           />
         </motion.div >
+        <Link href="/torre-de-mabel" className="mx-auto p-2 text-center w-[50%] border-solid border-zinc-200 border-2 rounded-md hover:bg-zinc-100">
+          Ir a la torre de mabel
+        </Link>
       </Container>
       <Container element="section">
         <motion.div

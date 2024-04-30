@@ -23,9 +23,9 @@ export const Prompt = ({ prop1 }, key) => {
   return (
     <li key={key}>
       <form onSubmit={saveWord} className="flex flex-row flex-wrap justify-between my-4 py-2 border-zinc-400 shadow-sm rounded-md" >
-        <Tooltip examples={examples[prop1]}>
+        
           <label className="animate-fade-in w-full text-center">{prop1}</label>
-        </Tooltip>
+        
       
         <input className="animate-fade-in w-full p-1 my-2 rounded-md text-center" name="palabra" disabled={disabled} />
         

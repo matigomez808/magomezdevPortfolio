@@ -24,7 +24,9 @@ export const PlayAgain = () => {
   );
   return (
     <Container>
-      <p>{rebuiltStory}</p>
+      <p className="p-1 my-2 text-pretty ">{rebuiltStory}</p>
+      <p className="p-1 my-2 text-pretty ">Si quiere guardar su historia copie y pegue o envie una captura de pantalla</p>
+      <p className="p-1 my-2 text-pretty ">F5 para reiniciar</p>
     </Container>
   );
 };

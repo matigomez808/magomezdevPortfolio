@@ -12,9 +12,7 @@ import { useEffect } from "react";
 export const Torre = () => {
   const activeStep = useTorreStore((state) => state.activeStep);
 
-  useEffect(() => {
-    console.log(activeStep)
-  }, [activeStep])
+
   
   return (
     

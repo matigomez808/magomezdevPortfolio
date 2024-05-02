@@ -9,8 +9,6 @@ export const Bienvenide = () => {
     nextStep();
   }
 
-  
-
   return (
     <div className="flex flex-col">
       <p className="font-light text-pretty py-4 text-center">
@@ -20,11 +18,11 @@ export const Bienvenide = () => {
       <section>
         <h4 className="text-2xl font-semibold py-4">Instrucciones</h4>
         <p className="font-light font italic py-2">El juego tiene tres etapas</p>
-        <oi>
+        <ol>
           <li className="list-decimal">Se selecciona un número al azar a través de una tirada de un dado. Ahí se selecciona una historia de la base de datos.</li>
           <li className="list-decimal">El usuario debe proveer una serie de palabras como: sustantivo, verbo o adjetivo.</li>
           <li className="list-decimal">Se introducen las palabras provistas por el usuario en el texto original y se lee la nueva y descabellada historia generada.</li>
-        </oi>
+        </ol>
       </section>
       <div className=" flex justify-center">
 

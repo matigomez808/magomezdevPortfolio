@@ -16,6 +16,7 @@ export const useTorreStore = create((set) => ({
         prompts: updatedPrompts,
       };
     }),
+  resetState: () => set({ prompts: [], author: "", roll:0, cuento: ""}),
   author: "",
   setAuthor: (name) => set({ author: name }),
   roll: 0,
@@ -26,10 +27,10 @@ export const useTorreStore = create((set) => ({
   setAllCuentos: (json) => set({ allCuentos: json }),
   error: null,
   setError: (error) => set({ error: error }),
-  // Language settings
-  language: "es", // Default language is English
+
+  language: "es", 
   setLanguage: (lang) => {
     set({ language: lang });
-    i18n.changeLanguage(lang); // Update i18n language
+    i18n.changeLanguage(lang);
   },
 }));

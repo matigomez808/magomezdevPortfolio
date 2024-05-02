@@ -1,48 +1,220 @@
 [
   {
-    "id" : 1,
-    "title" : "El dinosaurio, de Augusto Monterroso",
-    "fullStory" : "Cuando despertó, el dinosaurio todavía estaba allí.",
-    "choppedStory" : ["Cuando ", ", el ", " todavía estaba allí" ],
-    "words" : ["Verbo en pasado", "Sustantivo masculino"]
+    "title": "El dinosaurio, de Augusto Monterroso",
+    "fullStory": "Cuando despertó, el dinosaurio todavía estaba allí.",
+    "words": [
+      {
+        "prompt": "Verbo en pasado",
+        "examples": "bajó, llegué, mintieron"
+      },
+      {
+        "prompt": "Sustantivo masculino",
+        "examples": "cajón, ladrillo, satelite"
+      }
+    ],
+    "withBlanks": "Cuando ${placeholder1}, el ${placeholder2} todavía estaba allí."
   },
   {
-    "id" : 2,
-    "title" : "Un sueño, de Jorge Luis Borges",
-    "fullStory" : "En un desierto lugar del Irán hay una no muy alta torre de piedra, sin puerta ni ventana. En la única habitación (cuyo piso es de tierra y que tiene la forma de círculo) hay una mesa de maderas y un banco. En esa celda circular, un hombre que se parece a mi escribe en caracteres que no comprendo un largo poema sobre un hombre que en otra celda circular escribe un poema sobre un hombre que en otra celda circular... \n El proceso no tiene fin y nadie podrá leer lo que los prisioneros escriben.",
-    "choppedStory": ["En un ", " lugar del Irán hay una no muy alta torre de ", ", sin puerta ni ventana. En la única habitación (cuyo piso es de tierra y que tiene la forma de círculo) hay una mesa de maderas y un ", ". En esa celda circular, un hombre que se parece a ", " escribe en caracteres que no comprende un largo poema sobre un ", " que en otra celda circular escribe un poema sobre un ", " que en otra celda circular… El proceso no tiene fin y nadie podrá leer lo que los ", " escriben."],
-    "words" : ["Adjetivo", "Sustantivo", "Sustantivo", "Sustantivo", "Sustantivo", "Sustantivo plural"],
-    "wordsB" : [{"prompt" : "Adjetivo", "examples" : "Bello, primordial, eterno, rimbombante, misterioso"}, {"prompt" : "Sustantivo", "examples" : "Pelota, barrio, persona, mesa, escudo"}, {"prompt" : "Sustantivo", "examples" :"Carro, lógica, ejemplo, queso, colibrí"}, {}
-    ]
+    "title": "Un sueño, de Jorge Luis Borges",
+    "fullStory": "En un desierto lugar del Irán hay una no muy alta torre de piedra, sin puerta ni ventana. En la única habitación (cuyo piso es de tierra y que tiene la forma de círculo) hay una mesa de maderas y un banco. En esa celda circular, un hombre que se parece a mi escribe en caracteres que no comprendo un largo poema sobre un hombre que en otra celda circular escribe un poema sobre un hombre que en otra celda circular... \n El proceso no tiene fin y nadie podrá leer lo que los prisioneros escriben.",
+    "words": [
+      {
+        "prompt": "Adjetivo masculino",
+        "examples": [
+          "bello",
+          "eterno",
+          "misterioso"
+        ]
+      },
+      {
+        "prompt": "Sustantivo",
+        "examples": [
+          "torre",
+          "habitación",
+          "celda"
+        ]
+      },
+      {
+        "prompt": "Sustantivo",
+        "examples": [
+          "mesa",
+          "banco",
+          "poema"
+        ]
+      },
+      {
+        "prompt": "Sustantivo",
+        "examples": [
+          "caracteres",
+          "hombre",
+          "prisioneros"
+        ]
+      },
+      {
+        "prompt": "Sustantivo femenino",
+        "examples": [
+          "ventana",
+          "forma",
+          "celda"
+        ]
+      },
+      {
+        "prompt": "Sustantivo plural masculino",
+        "examples": [
+          "poemas",
+          "elefantes",
+          "misioneros"
+        ]
+      }
+    ],
+    "withBlanks": "En un ${placeholder1} lugar del Irán hay una no muy alta torre de ${placeholder2}, sin puerta ni ventana. En la única habitación (cuyo piso es de tierra y que tiene la forma de círculo) hay una mesa de maderas y un    \n${placeholder3}. En esa celda circular, un hombre que se parece a  ${placeholder4} escribe en caracteres que no comprende un largo poema sobre un  ${placeholder4} que en otra celda circular escribe un poema sobre un  ${placeholder4} que en otra celda circular… El proceso no tiene fin y nadie podrá leer lo que los  ${placeholder5} escriben."
   },
   {
-    "id" : 3,
-    "title" : "Final para un cuento fantástico, de I.A. Ireland" ,
-    "fullStory" : "-¡Que extraño! -dijo la muchacha avanzando cautelosamente-. ¡Qué puerta más pesada! \n La tocó, al hablar, y se cerró de pronto, con un golpe. \n -¡Dios mío! -dijo el hombre-. Me parece que no tiene picaporte del lado de adentro. ¡Cómo, nos han encerrado a los dos! \n -A los dos no. A uno solo -dijo la muchacha. \n Pasó a través de la puerta y desapareció.",
-    "choppedStory" : ["-¡"," -dijo la muchacha avanzando ", "-. ¡Qué puerta más ", "! \n La tocó, al hablar, y se cerró de pronto, con un golpe. \n -¡Dios mío! -dijo el hombre-. Me parece que no tiene ", " del lado de adentro. ¡Cómo, nos han encerrado a los dos! \n -A los dos no. A uno solo -dijo la muchacha. \n Pasó a través de la ", " y desapareció."],
-    "words" : ["Expresión de asombro", "Adverbio de modo", "Adjetivo femenino", "Sustantivo", "Sustantivo femenino"]
+    "title": "Final para un cuento fantástico, de I.A. Ireland",
+    "fullStory": "-¡Que extraño! -dijo la muchacha avanzando cautelosamente-. ¡Qué puerta más pesada! \n La tocó, al hablar, y se cerró de pronto, con un golpe. \n -¡Dios mío! -dijo el hombre-. Me parece que no tiene picaporte del lado de adentro. ¡Cómo, nos han encerrado a los dos! \n -A los dos no. A uno solo -dijo la muchacha. \n Pasó a través de la puerta y desapareció.",
+    "words": [
+      {
+        "prompt": "Expresión de asombro",
+        "examples": [
+          "¡Caramba!",
+          "¡Increíble!",
+          "¡Recórcholis!"
+        ]
+      },
+      {
+        "prompt": "Adverbio de modo",
+        "examples": [
+          "cautelosamente",
+          "rápidamente",
+          "silenciosamente"
+        ]
+      },
+      {
+        "prompt": "Adjetivo femenino",
+        "examples": [
+          "pesada",
+          "grande",
+          "hermosa"
+        ]
+      },
+      {
+        "prompt": "Sustantivo",
+        "examples": [
+          "puerta",
+          "casa",
+          "mesa"
+        ]
+      }
+    ],
+    "withBlanks": "-¡${placeholder1}! -dijo la muchacha avanzando ${placeholder2}-. ¡Qué puerta más ${placeholder3}! \n La tocó, al hablar, y se cerró de pronto, con un golpe. \n -¡Dios mío! -dijo el hombre-. Me parece que no tiene ${placeholder4} del lado de adentro. ¡Cómo, nos han encerrado a los dos! \n -A los dos no. A uno solo -dijo la muchacha. \n Pasó a través de la puerta y desapareció."
   },
   {
-    "id" : 4,
-    "title" : "Una inmortalidad, de Carlos Almira" ,
-    "fullStory" : "El poeta de moda murió, y levantaron una estatua. Al pie grabaron uno de los epigramas que le valieron la inmortalidad y que ahora provoca la indiferencia o la risa, como la chistera, el corbatín y la barba de chivo del pobre busto. El Infierno no es de fuego ni de hielo, sino de bronce imperecedero.",
-    "choppedStory" : ["El ", " de moda murió, y levantaron una ",". Al pie grabaron uno de los "," que le valieron la inmortalidad y que ahora provoca la indiferencia o la risa, como la chistera, el ", " y la barba de chivo del pobre busto. El Infierno no es de "," ni de ",", sino de bronce "],
-    "words" :["Sustantivo masculino","Sustantivo femenino","Sustantivo masculino","Sustantivo masculino","Sustantivo","Sustantivo", "Adjetivo" ]
+    "title": "Una inmortalidad, de Carlos Almira",
+    "fullStory": "El poeta de moda murió, y levantaron una estatua. Al pie grabaron uno de los epigramas que le valieron la inmortalidad y que ahora provoca la indiferencia o la risa, como la chistera, el corbatín y la barba de chivo del pobre busto. El Infierno no es de fuego ni de hielo, sino de bronce imperecedero.",
+    "words": [
+      {
+        "prompt": "Sustantivo masculino",
+        "examples": [
+          "poeta",
+          "hombre",
+          "busto"
+        ]
+      },
+      {
+        "prompt": "Sustantivo femenino",
+        "examples": [
+          "estatua",
+          "risa",
+          "chistera"
+        ]
+      },
+      {
+        "prompt": "Sustantivo masculino",
+        "examples": [
+          "epigrama",
+          "corbatín",
+          "Infierno"
+        ]
+      },
+      {
+        "prompt": "Sustantivo masculino",
+        "examples": [
+          "fuego",
+          "hielo",
+          "bronce"
+        ]
+      },
+      {
+        "prompt": "Sustantivo",
+        "examples": [
+          "indiferencia",
+          "amor",
+          "odio"
+        ]
+      },
+      {
+        "prompt": "Sustantivo",
+        "examples": [
+          "luz",
+          "papel",
+          "aire"
+        ]
+      }
+    ],
+    "withBlanks": "El ${placeholder1} de moda murió, y levantaron una ${placeholder2}. Al pie grabaron uno de los ${placeholder3} que le valieron la inmortalidad y ahora provoca la indiferencia o la risa, como la chistera, el ${placeholder4} y la barba de chivo del pobre busto. El infierno no es de ${placeholder5} ni de ${placeholder6}, sino de bronce."
   },
   {
-    "id" : 5,
-    "title" : "Sueño de la mariposa, de Chuang Tzu " ,
-    "fullStory" : "Chuang Tzu soñó que era una mariposa. Al despertar ignoraba si era Tzu que había soñado que era una mariposa o si era una mariposa y estaba soñando que era Tzu.",
-    "choppedStory" : [" soñó que era una ",". Al despertar ignoraba si era "," que había soñado que era una ", " o si era una "," y estaba soñando que era "],
-    "words" :["Sustantivo propio","Sustantivo femenino"]
+    "title": "Sueño de la mariposa, de Chuang Tzu ",
+    "fullStory": "Chuang Tzu soñó que era una mariposa. Al despertar ignoraba si era Tzu que había soñado que era una mariposa o si era una mariposa y estaba soñando que era Tzu.",
+    "words": [
+      {
+        "prompt": "Sustantivo propio",
+        "examples": [
+          "Rita",
+          "Jorge",
+          "Leo Mattioli"
+        ]
+      },
+      {
+        "prompt": "Sustantivo femenino",
+        "examples": [
+          "mariposa",
+          "flor",
+          "casa"
+        ]
+      }
+    ],
+    "withBlanks": "${placeholder1} soñó que era una ${placeholder2}. Al despertar ignoraba si era ${placeholder1} que había soñado que era una  ${placeholder2} o si era una  ${placeholder2} y estaba soñando que era ${placeholder1}"
   },
   {
-    "id" : 6,
-    "title" : "70 - Ana María Shua" ,
-    "fullStory" : "Con una mueca feroz, chorreando sangre y baba, el hombre lobo separa las mandíbulas y desnuda los colmillos amarillos. Un curioso zumbido perfora el aire. El hombre lobo tiene miedo. El dentista también.",
-    "choppedStory" : ["Con una mueca ",", chorreando sangre y baba, el hombre "," separa las mandíbulas y desnuda los colmillos amarillos. Un ", " zumbido perfora el aire. El hombre "," tiene miedo. El dentista también."],
-    "words" :["Adjetivo femenino", "Sustantivo", "Adjetivo"]
+    "title": "70 - Ana María Shua",
+    "fullStory": "Con una mueca feroz, chorreando sangre y baba, el hombre lobo separa las mandíbulas y desnuda los colmillos amarillos. Un curioso zumbido perfora el aire. El hombre lobo tiene miedo. El dentista también.",
+    "words": [
+      {
+        "prompt": "Adjetivo femenino",
+        "examples": [
+          "feroz",
+          "hermosa",
+          "delicada"
+        ]
+      },
+      {
+        "prompt": "Sustantivo",
+        "examples": [
+          "hombre",
+          "lobo",
+          "dentista"
+        ]
+      },
+      {
+        "prompt": "Adjetivo",
+        "examples": [
+          "curioso",
+          "extraño",
+          "ruidoso"
+        ]
+      }
+    ],
+    "withBlanks": "Con una mueca ${placeholder1}, chorreando sangre y baba, el hombre ${placeholder2} separa las mandibulas y desnuda los colmillos amarillos. Un ${placeholder3} zumbido perfora el aire. El hombre ${placeholder2} tiene miedo. El destista tambien."
   }
-
 ]
-

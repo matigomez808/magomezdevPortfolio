@@ -40,10 +40,9 @@ const Die = () => {
         console.log(pick.fullStory)
         console.log(pick.words) */
   }
-
-  const handleStep = () => {
-    nextStep();
-  }
+  useEffect(() => {
+    
+  }, [cuento])
 
   return (
     <div>
@@ -62,9 +61,11 @@ export const DiceRoll = () => {
   const setAuthor = useTorreStore((state) => state.setAuthor)
   const author = useTorreStore((state) => state.author)
   const setAllCuentos = useTorreStore((state) => state.setAllCuentos)
+  const allCuentos = useTorreStore((state) => state.allCuentos)
   const setError = useTorreStore((state) => state.setError)
 
   useEffect(() => {
+
     const fetchData = async () => {
       try {
         const cuentos = await getData();
@@ -73,13 +74,10 @@ export const DiceRoll = () => {
         setError(message);
       }
     };
-
-    fetchData();
+    if (allCuentos === null) {
+      fetchData();
+    }
   }, []);
-
-  useEffect(() => {
-    console.log("author", author)
-  }, [author])
 
   let authorString = ""
 

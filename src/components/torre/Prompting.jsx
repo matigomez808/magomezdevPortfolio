@@ -8,14 +8,14 @@ export const Prompting = () => {
   const nextStep = useTorreStore((state) => state.nextStep)
   const cuento = useTorreStore((state) => state.cuento)
 
-  const handleStep = () => {
-    nextStep();
-  }
+  console.log(prompts);
+  console.log(cuento);
 
   const fields = () => {
-    const queries = cuento.words;
+    const queries = cuento.words.map((prompt) => prompt);
+    
     return queries.map((query, idx) => {
-      return <Prompt prop1={query} key={idx}  />
+      return <Prompt prop1={query.prompt} examples={query.examples} key={idx}  />
     })
   }
   useEffect(() => {
@@ -23,7 +23,7 @@ export const Prompting = () => {
     const arr2 = cuento.words;
     arr1.length === arr2.length 
       ? nextStep()
-      : console.log(arr1)
+      : null
   }, [prompts])
   return (
     <Container id="prompting-box" width="w-full" >

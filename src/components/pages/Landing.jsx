@@ -158,7 +158,7 @@ export default function Landing() {
           />
         </motion.div >
         <Link href="/torre-de-mabel" className="mx-auto p-2 text-center w-[50%] border-solid border-zinc-200 border-2 rounded-md hover:bg-zinc-100">
-          Ir a la torre de mabel
+          {t('landing.goTorre')}
         </Link>
       </Container>
       <Container element="section">

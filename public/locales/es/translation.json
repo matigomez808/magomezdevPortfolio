@@ -9,7 +9,8 @@
       "agur": "Ecommerce para un emprendimiento local.",
       "torre": "Pequeño juego de historias locas."
     },
-    "gallery" : "Toca la imagen para ver mas"
+    "gallery" : "Toca la imagen para ver mas",
+    "goTorre" : "Ir a la Torre de Mabel"
   },
   "cv": {
     "pageTitle": "Mi CV",

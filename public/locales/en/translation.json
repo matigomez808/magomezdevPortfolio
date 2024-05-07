@@ -9,7 +9,8 @@
       "agur": "Ecommerce for a local business.",
       "torre": "Madlibs game in Python."
     },
-    "gallery" : "Press image to see more"
+    "gallery" : "Press image to see more",
+    "goTorre" : "Go to the Tower of Mabel"
   },
   "cv": {
     "pageTitle": "My CV",

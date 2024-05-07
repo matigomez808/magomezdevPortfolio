@@ -36,9 +36,6 @@ const Die = () => {
     setRoll(newRoll)
     let pick = allCuentos[newRoll]
     setCuento(pick);
-    /*     console.log(pick.title)
-        console.log(pick.fullStory)
-        console.log(pick.words) */
   }
   useEffect(() => {
     

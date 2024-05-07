@@ -101,9 +101,7 @@ export const PlayAgain = () => {
   return (
     <Container>
       <p className="p-1 my-2 text-pretty ">{rebuiltStory}</p>
-      <p className="p-1 my-2 text-pretty ">Si quiere guardar su historia copie y pegue o envie una captura de pantalla</p>
-      <p className="p-1 my-2 text-pretty ">F5 para reiniciar</p>
-
+      
       <button
         className="p-2 border-solid border-2 rounded-md border-[#006600] hover:bg-[#628862] hover:border-opacity-0"
         onClick={handleSaveCreation}

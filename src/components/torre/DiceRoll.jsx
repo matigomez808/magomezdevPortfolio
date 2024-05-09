@@ -7,7 +7,7 @@ import { useEffect } from "react"
 
 
 async function getData() {
-  const res = await fetch('/api/cuentos');
+  const res = await fetch('/api/cuentos/all');
 
   if (!res.ok) {
     throw new Error(`Failed to fetch data: ${res.status} ${res.statusText}`);

@@ -8,12 +8,12 @@ import Navigator from "@/components/UI/Navigator";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "mgomezdev's Protfolio",
-  description: "Mati Gomez's CV and projects",
+  title: "mgomezdev's CV",
+  description: "Mati Gomez's CV and link to pdf version",
   verification: {google: "poYktLqxzTcMOZ-7W4EV9BeEjPvdH12TUkAtBg5qV5Y"},
   openGraph: {
-    title: "mgomezdev's Portfolio",
-    description: "Mati Gomez's CV and projects",
+    title: "mgomezdev's CV",
+    description: "Mati Gomez's CV",
     url: "https://magomezdev.tech/",
     siteName: "mgomezdev's Portfolio",
     author: "Matias Gomez",

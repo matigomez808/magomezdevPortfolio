@@ -5,7 +5,7 @@ export const Bienvenide = () => {
 
   const nextStep = useTorreStore((state) => state.nextStep);
 
-  const handleEntrar = () => {
+  const handleNext = () => {
     nextStep();
   }
 
@@ -26,7 +26,7 @@ export const Bienvenide = () => {
       </section>
       <div className=" flex justify-center">
 
-        <form action={handleEntrar}>
+        <form action={handleNext}>
           <button className="text-3xl font-bold py-8 px-16 mt-4 mx-auto p-2 text-center  border-solid border-2 rounded-md border-[#006600] hover:bg-[#628862] hover:border-none">
             Entrar a la torre
           </button>

@@ -6,7 +6,6 @@ import { Bienvenide } from "./Bienvenide";
 import { DiceRoll } from "./DiceRoll";
 import { Prompting } from "./Prompting";
 import { PlayAgain } from "./PlayAgain";
-import { useEffect } from "react";
 
 
 export const Torre = () => {
@@ -24,7 +23,7 @@ export const Torre = () => {
           : activeStep === 1 ? <DiceRoll />
             : activeStep === 2 ? <Prompting />
               : activeStep === 3 ? <PlayAgain />
-                : null
+                : nulls
       }
     </Container>
   )

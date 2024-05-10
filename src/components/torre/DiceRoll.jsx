@@ -1,8 +1,6 @@
 import { useTorreStore } from "@/store/store"
 
-import { useState } from "react"
-import { motion } from "framer-motion"
-import connectToDatabase from "@/lib/mongodb"
+
 import { useEffect } from "react"
 
 

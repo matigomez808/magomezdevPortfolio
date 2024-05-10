@@ -16,7 +16,6 @@ import { Container } from "../UI/Container";
 import { useTranslation } from "react-i18next";
 import i18n from "@/lib/i18n";
 import { Suspense } from "react";
-import AnimatedLink from "../UI/AnimatedLink";
 import Link from "next/link";
 
 
@@ -49,7 +48,7 @@ export default function Landing() {
   ];
 
   return (
-    <div>
+    <>
       <Container id="nametag" padding="px-8 py-2" >
         <motion.div
           whileInView={{ x: 0, opacity: 1, transition: 200 }}
@@ -178,6 +177,6 @@ export default function Landing() {
           <Slideshow />
         </motion.div >
       </Container>
-    </div>
+    </>
   );
 }

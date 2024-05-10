@@ -5,9 +5,7 @@ import { motion } from "framer-motion";
 
 const AnimatedLink = ({ href, children, ...props }) => {
   return (
-    <Link 
-    href={href}
-    >
+    <Link href={href}>
       <motion.div
         {...props}
         whileHover={{
@@ -18,10 +16,7 @@ const AnimatedLink = ({ href, children, ...props }) => {
           backgroundColor: "#006600",
           scale: 0.9
         }}
-        
-       
       >
-
         {children}
 
       </motion.div>

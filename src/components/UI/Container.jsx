@@ -1,14 +1,17 @@
-/* import "../app/(home)/globals.css"
-
-export const Container = ({ children }) => {
-  return (
-    <section className="flex flex-col mx-auto sm:max-w-screen-sm max-h-screen md:max-w-screen-md lg:max-w-screen-lg bg-zinc-300 py-16 px-8 text-pretty bg-opacity-80 md:bg-opacity-100">
-      {children}
-    </section>
-  )
-} */
 
 import "../../app/(home)/globals.css"
+
+// Este contenedor dinamico por defecto, con el param clasName esta centrado y con el texto justificado(pretty).
+// El fondo por defecto es Negro y sólido 
+// TODO : theme switch (light/dark)
+// Color por defecto del texto es theme.color.mg-off-white
+// Font predefinida es main(Chivo)
+// Font ref: main(Chivo) heading(RedHatDisplay) mono(FiraMono) variant(AnonymousPro)
+// Layout es por defecto flex,
+// Padding por defecto es responsivo, lg:8 md:4 sm:2
+// Height y Width son en caso de necesidad especifica
+// Glow y border son para los flares de UI
+
 
 
 export const Container = ({
@@ -16,18 +19,22 @@ export const Container = ({
   id="",
   element: Element = "section",
   className = "mx-auto text-pretty",
-  background = "bg-zinc-300 bg-opacity-80 md:bg-opacity-100",
+  background = "bg-none",
+  textColor = "text-mg-off-white",
+  fontFamily = "font-main",
   layout = "flex flex-col",
-  padding = "py-16 px-8", // Adjustable padding,
+  padding = "p-8 md:p-4 sm:p-2", // Adjustable padding,
   height = "",
-  width = "sm:max-w-full md:max-w-[80%] lg:max-w-[80%]",
+  width = "",
+  glow = "",
+  border = "",
   ...otherProps // Capture additional props for future flexibility
 }) => {
 
   return (
     <Element
       id={`${id}`}
-      className={` ${className} ${layout} ${padding} ${background} ${height} ${width}`}
+      className={` ${className} ${background} ${textColor} ${fontFamily} ${layout} ${padding} ${height} ${width} ${glow} ${border} `}
             
       {...otherProps} // Pass through any remaining props for future customization
     >

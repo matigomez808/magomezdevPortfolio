@@ -11,12 +11,12 @@ import Spring from "../icons/springIcon.svg";
 import Tailwind from "../icons/tailwindIcon.svg";
 import Material from "../icons/materialIcon.svg";
 import Slideshow from "../UI/Slideshow";
-import { motion } from "framer-motion";
 import { Container } from "../UI/Container";
 import { useTranslation } from "react-i18next";
 import i18n from "@/lib/i18n";
 import { Suspense } from "react";
 import Link from "next/link";
+import { Background } from "../UI/Background";
 
 
 const skills = [
@@ -48,95 +48,96 @@ export default function Landing() {
   ];
 
   return (
-    <>
-      <Container id="nametag" padding="px-8 py-2" >
-        <motion.div
-          whileInView={{ x: 0, opacity: 1, transition: 200 }}
-          initial={{ x: -100, opacity: 0 }}
-        >
-          <span className="font-semibold">{">_"}</span>magomezdev
-        </motion.div>
+
+    <Background>
+      <Container
+        id="nametag"
+        className="m-0"
+        
+        fontFamily="font-mono"
+        padding="p-8 "
+        layout="object-left">
+        <div>
+          <span>{">_"}</span>magomezdev
+        </div>
       </Container>
-      <Container id="head" layout="lg:grid lg:grid-cols-2 lg:gap-2 sm:flex sm:flex-col">
-        <motion.div
-          whileInView={{ x: 0, opacity: 1, transition: 200 }}
-          initial={{ x: -100, opacity: 0 }}
+      <Container
+        id="head"
+        
+        layout="lg:grid lg:grid-cols-2 lg:gap-2 sm:flex sm:flex-col">
+        <Container
+          
+          padding=""
         >
-          <h2 id="Mati-Gomez" className="text-4xl font-bold tracking-tight text-black sm:text-6xl ">
-            Mati Gomez
+          <h2
+            id="Mati-Gomez"
+            className="text-4xl font-bold tracking-tight font-heading">
+            Matias Gomez
           </h2>
           <Suspense fallback="Loading...">
             <article>
-              <p className="mt-6 text-lg leading-8 text-black">
+              <p className="mt-6 text-lg leading-8 ">
                 {t('landing.title')}
               </p>
-              <p className="mt-6 text-lg leading-8 text-black">
+              <p className="mt-6 text-lg leading-8 ">
                 {t('landing.abstract')}
               </p>
             </article>
           </Suspense>
-        </motion.div>
-        <motion.aside
-          whileInView={{ x: 0, opacity: 1, transition: 200 }}
-          initial={{ x: 100, opacity: 0 }}
+        </Container>
+        <Container
+        padding=""
         >
           <Image
-            className="rounded-3xl self-center mx-auto shadow-sm pt-4 sm:p-4"
+            className="rounded-full self-center mx-auto bg-none"
             src="/carnet.jpg"
             alt="headshot de Mati Gomez"
-            height={325}
-            width={325}
+            height={400}
+            width={400}
             priority
           />
-        </motion.aside>
-        <motion.div
-          className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none col-span-full"
-          whileInView={{ opacity: 1, transition: 300 }}
-          initial={{ opacity: 0 }}
-        >
-          <Suspense fallback="Loading...">
-            <h2 className="text-xl font-bold lg:text-left sm:text-center">
-              {t('landing.projects')}
-            </h2>
-
-            <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 mt-6 text-black sm:grid-cols-2 sm:flex lg:gap-x-10">
-              {links.map((link) => (
-                <div key={link.name}>
-                  <a href={link.href} className="mt-4">
-                    {link.name} <span aria-hidden="true">&rarr;</span>
-                  </a>
-                  <p className="font-light">{link.descripcion}</p>
-                </div>
-              ))}
-            </div>
-          </Suspense>
-        </motion.div>
-        <motion.section
-          id="skills"
-          className="col-span-full pt-8"
-          whileInView={{ opacity: 1, transition: 400 }}
-          initial={{ opacity: 0 }}
-        >
-          <h2 className="text-xl font-bold mt-4 text-center col-span-full">
-            Skills
+        </Container>
+      </Container>
+      <Container
+        className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none col-span-full"
+        whileInView={{ opacity: 1, transition: 300 }}
+        initial={{ opacity: 0 }}
+      >
+        <Suspense fallback="Loading...">
+          <h2 className="text-xl font-bold lg:text-left sm:text-center">
+            {t('landing.projects')}
           </h2>
-          <div className="col-span-full flex flex-row justify-between flex-wrap px-2">
-            {skills.map((skill) => (
-              <Suspense key={skill.name} fallback="Loading...">
-                <div className="mt-4">
-                  {skill.image}
-                </div>
-              </Suspense>
+
+          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 mt-6  sm:grid-cols-2 sm:flex lg:gap-x-10">
+            {links.map((link) => (
+              <div key={link.name}>
+                <a href={link.href} className="mt-4">
+                  {link.name} <span aria-hidden="true">&rarr;</span>
+                </a>
+                <p className="font-light">{link.descripcion}</p>
+              </div>
             ))}
           </div>
-        </motion.section>
+        </Suspense>
       </Container>
+      <section>
+        <h2 className="text-xl font-bold mt-4 text-center col-span-full">
+          Skills
+        </h2>
+        <div className="col-span-full flex flex-row justify-between flex-wrap px-2">
+          {skills.map((skill) => (
+            <Suspense key={skill.name} fallback="Loading...">
+              <div className="mt-4">
+                {skill.image}
+              </div>
+            </Suspense>
+          ))}
+        </div>
+      </section>
+
       <Container element="section">
-        <motion.div
-          className="col-span-full "
-          whileInView={{ opacity: 1, transition: 400 }}
-          initial={{ opacity: 0 }}
-        >
+        <div
+          className="col-span-full ">
           <h2
             id="torre-de-mabel"
             className="text-xl font-bold mt-4 text-center scroll-mt-10"
@@ -155,17 +156,12 @@ export default function Landing() {
             width={1000}
             height={667}
           />
-        </motion.div >
-        <Link href="/torre-de-mabel" className="mx-auto p-2 text-center w-[50%] border-solid border-zinc-200 border-2 rounded-md hover:bg-zinc-100">
-          {t('landing.goTorre')}
-        </Link>
+        </div >
+
       </Container>
       <Container element="section">
-        <motion.div
-          className="col-span-full"
-          whileInView={{ opacity: 1, transition: 400 }}
-          initial={{ opacity: 0 }}
-        >
+        <div
+          className="col-span-full">
           <h2 id="agur" className="text-xl font-bold mt-4 text-center scroll-mt-10">
             Agur
           </h2>
@@ -175,8 +171,9 @@ export default function Landing() {
             </article>
           </Suspense>
           <Slideshow />
-        </motion.div >
+        </div >
       </Container>
-    </>
+    </Background>
+
   );
 }

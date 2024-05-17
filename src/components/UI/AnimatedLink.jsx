@@ -1,25 +1,16 @@
 'use client'
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+
 
 const AnimatedLink = ({ href, children, ...props }) => {
   return (
-    <Link href={href}>
-      <motion.div
-        {...props}
-        whileHover={{
-          backgroundColor: "#006600",
-          transition: { duration: 0.5, ease: "easeOut" }
-        }}
-        whileTap={{
-          backgroundColor: "#006600",
-          scale: 0.9
-        }}
-      >
+    <Link 
+      href={href}
+      className="text-center p-1 mx-1  rounded min-w-14 hover:bg-mg-green hover:bg-opacity-50 hover:font-bold hover:text-white transition-all duration-50 ease-in">
+      
         {children}
 
-      </motion.div>
     </Link>
   )
 }

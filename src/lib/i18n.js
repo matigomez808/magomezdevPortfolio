@@ -19,7 +19,7 @@ i18n
         translation: translationES,
       },
     },
-    fallbackLng: 'en', // Default language fallback
+    fallbackLng: 'es', // Default language fallback
     debug: false, // Enable debug mode
     interpolation: {
       escapeValue: false, // React already does escaping

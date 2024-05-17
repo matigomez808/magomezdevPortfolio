@@ -8,16 +8,16 @@ function LanguageSwitcher() {
     <div>
       <button
         onClick={() => setLanguage("en")}
-        className={`font-extralight text-l px-4 rounded ${
-          language === "en" ? "font-normal" : ""
+        className={`font-variant text-l px-4 rounded ${
+          language === "en" ? "font-bold" : ""
         }`}
       >
         English
       </button>
       <button
         onClick={() => setLanguage("es")}
-        className={`font-extralight text-lg px-4 rounded ${
-          language === "es" ? "font-normal" : ""
+        className={`font-variant text-lg px-4 rounded ${
+          language === "es" ? "font-bold" : ""
         }`}
       >
         Español

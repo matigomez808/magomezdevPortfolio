@@ -7,4 +7,4 @@ const BiblioPage = () => {
   return <Torre />
 }
 
-export default TorrePage;
+export default BiblioPage;

@@ -12,7 +12,7 @@ export const Torre = () => {
   const activeStep = useTorreStore((state) => state.activeStep);
 
   return (
-    <Container height="min-h-screen">
+    <Container background="bg-[#585858] bg-opacity-20" height="min-h-screen">
       
       <h1 className="text-4xl font-semibold mx-auto py-8 ">Torre de Mabel</h1>
       {

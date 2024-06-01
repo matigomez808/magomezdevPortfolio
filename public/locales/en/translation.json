@@ -19,10 +19,9 @@
     "title": "Software Developer",
     "location": "Santa Rosa, La Pampa, Argentina",
     "aboutMeTitle": "About me",
-    "aptitudes": "In 2020, I began delving into programming out of curiosity. I learned Python, basic programming logic, and some SQL. Instead of diving in immediately, I took time to explore entrepreneurship, design, and crafting wooden objects with manual tools. For a little over two years now, I've been fully immersed in programming. I rekindled my journey in IT through a program where I delved into Java and Spring Boot, focusing on database development and REST APIs. Along this path, I discovered more comprehensive tools and fresh perspectives. Although the intervening time wasn't brief, my initial forays into Python bore fruit. While participating in a structured program was beneficial, I found the pace somewhat lacking. Through self-directed learning, I acquired skills in frontend development and expanded my backend toolkit with JavaScript using Next.js.",
     "education": {
       "title": "Formation",
-      "description": "",
+      "description": "In all my jobs I worked with software, and along with it came English. When I started teaching myself software development I felt very comfortable with my knowledge of English. It allowed me to understand core concepts quickly and with depth without needing a translation. Learning in two languages can be confusing at times, but finding the right words to communicate the same ideas in different languages teaches almost as much as writing code.",
       "items": [
         {
           "title": "First Certificate of English - Cambridge",
@@ -58,7 +57,7 @@
     },
     "experience": {
       "title": "Journey",
-      "description": "My work experience is diverse and enriching, covering various fields that have contributed to my comprehensive professional development. I began my career at the Chadileuvú Foundation, where I managed the front desk, honing administrative skills and customer service abilities. Subsequently, I worked as a radio operator at several local stations, including FM La Tosca, Radio Mitre, and Radio Kermes, gaining expertise in communication, technical equipment handling, and live broadcast coordination. In 2019, I co-produced the documentary 'Vías al Olvido' for CPE TV, merging my communication and audiovisual skills. This project allowed me to engage in content creation from conceptualization to final production, collaborating with a multidisciplinary team and managing resources to meet deadlines. Moreover, it enhanced my storytelling proficiency and effective message delivery through visual and auditory media. Starting in 2021, I pursued artisanal carpentry, enriching my creativity and attention to detail. Concurrently, I took on roles in photography, videography, and as a Community Manager at Agur, a local venture. These experiences helped me develop technical skills in visual content editing and production, as well as digital marketing strategies and social media management, all of which are pivotal to my current focus on software development.",
+      "description": "In my various positions, I was always in some way linked to the IT side of things. From my time at the radio with editing and live production to a bit of 3D modeling when I was doing carpentry, there was always software that aided me. In this part of my professional journey, I want to be part of those who create these awesome tools that aid in creating more great stuff.",
       "items": [
         {
           "date": "2011-2012",

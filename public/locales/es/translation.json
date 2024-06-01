@@ -3,7 +3,7 @@
     "title": "Desarrollador de software situado en La Pampa, Argentina",
     "intro": "$ echo",
     "name": "Matias Gomez",
-    "abstract": "Apasionado por el desarrollo de software. Aprender de forma autodidacta me ayudó a re-entender a esta herramienta que son las TI. Mi formación previa en comunicación, audiovisuales y carpintería me acompañan en este nuevo trayecto de mi carrera profesional.",
+    "abstract": "Apasionado por el desarrollo de software. Aprender de forma autodidacta me ayudó a re-entender a esta herramienta que son los sistemas. Mi formación previa me acompaña en este nuevo trayecto de mi carrera profesional.",
     "torre": "Esta es mi primera aplicación. Es un pequeño juego en el que introducimos palabras al azar en un relato y despues vemos qué relato nuevo construimos. Es verdaderamente sencilla pero divertida.",
     "agur": "Este es un sitio de Ecommerce para un emprendimiento de ropa interior en mi ciudad. Es mi primer proyecto con React. Es bastante sencillo y aún sigue en desarrollo. Comenzó como un proyecto 100% React y de a poco fui incorporando frameworks como Material UI y Zustand para manejo del state. Tiene también una integración con MongoDB Atlas con la que accede a una lista de productos con sus imagenes colgadas en un bucket externo.",
     "projects": "Proyectos",
@@ -19,10 +19,10 @@
     "title": "Desarrollador de software",
     "location": "Santa Rosa, La Pampa, Argentina",
     "aboutMeTitle": "Acerca de mí",
-    "aptitudes": "En 2020 comencé con curiosidad a incursionar en programación. Aprendí python, lógica de programación básica y un poco de SQL. No seguí de inmediato, sino que en el medio aprendí de emprendedurismo, dieño y a crear objetos de madera con herramientas manuales. Ahora, hace un poco mas de 2 años estoy enfocado al 100% en programación. Retomé el camino de las TI con un programa en el que aprendí Java y Spring Boot. Enfocado en el desarrollo de bases de datos y APIs Rest. En ese trayecto descrubrí herramientas mas completas y con perspectivas nuevas. Si bien el tiempo en medio no fue poco, mis primeras indagaciones en Python rendian frutos. Participar de un programa estructurado fue muy beneficioso, pero el ritmo me pareció insuficiente. En forma autodidacta aprendí a desarrollar código para FrontEnd y tambien amplié mis herramientas BackEnd en JS usando Next.js",
+    "aptitudes": "",
     "education": {
       "title": "Formación",
-      "description": "",
+      "description": "En todos mis trabajos trabajé con software, de la mano vino el inglés. Cuando empecé a estudiar software de manera autodidacta me encontré muy a gusto con mi manejo del inglés. Aprender en dos idiomas puede ser confuso a veces pero encontrando las palabras correctas para comunicar lo mismo en dos idiomas se aprende casi tanto como escribiendo código.",
       "items": [
         {
           "title": "First Certificate of English - Cambridge",
@@ -61,7 +61,7 @@
     },
     "experience": {
       "title": "Trayecto",
-      "description": "Mi experiencia laboral es diversa y enriquecedora, abarcando distintos ámbitos que han contribuido a mi formación integral como profesional. Comencé mi carrera en la Fundación Chadileuvú, donde estuve a cargo de la mesa de entrada, desarrollando habilidades administrativas y de atención al público. Posteriormente, me desempeñé como operador de radio en estaciones locales como FM La Tosca, Radio Mitre y Radio Kermes, adquiriendo competencias en comunicación, manejo de equipos técnicos y coordinación de transmisiones en vivo. En 2019, fui co-realizador del documental 'Vías al Olvido' para CPE TV, combinando mis habilidades en comunicación y audiovisuales. Este proyecto me permitió involucrarme en la creación de contenido desde la conceptualización hasta la producción final, trabajando con un equipo multidisciplinario y gestionando recursos para cumplir con los plazos establecidos. Además, perfeccioné mi capacidad para contar historias y transmitir mensajes de manera efectiva a través de medios visuales y auditivos. A partir de 2021, me dediqué a la carpintería artesanal, una etapa que enriqueció mi creatividad y atención al detalle. Simultáneamente, asumí roles en fotografía, videografía y como Community Manager en Agur, un emprendimiento local. Estas experiencias me permitieron desarrollar habilidades técnicas en edición y producción de contenido visual, así como estrategias de marketing digital y gestión de redes sociales, fundamentales para mi actual enfoque en el desarrollo de software.",
+      "description": "En mis diversos puestos siempre estuve de alguna u otra manera vinculado al aspecto informático de las cosas. Desde mi paso por la radio con la edición y producción en vivo hasta un poco de modelado 3d cuando hacia carpinteria siempre hay hubo software que me ayudó con distintos procesos. En esta parte de mi viaje profesional quiero ser parte de quienes hacen esas herramientas.",
       "items": [
         {
           "date": "2011-2012",

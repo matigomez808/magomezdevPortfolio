@@ -30,9 +30,9 @@ export const CurriculumVitae = () => {
       <Banner src={keysImage} alt="imagen de un teclado" border="bg-black" imageStyles="relative " />
 
       <Container id="cv"
-        className=""
+        className="lg:max-w-[80dvw] mx-auto"
         layout=""
-        background="bg-black">
+        background="">
         <Container id="cv-heading"
           className=""
 
@@ -49,11 +49,12 @@ export const CurriculumVitae = () => {
 
         </Container>
 
-        <Container id="aptitudes">
+        <Container id="description">
           <WindowContainer alternate>
             <p className="text-pretty text-lg font-light">
               <Suspense fallback='Loading...'>
-                {t(`cv.aptitudes`)}
+                {t(`cv.experience.description`)}
+
               </Suspense>
             </p>
           </WindowContainer>
@@ -72,7 +73,7 @@ export const CurriculumVitae = () => {
           <WindowContainer alternate>
             <p className="text-pretty text-lg font-light">
               <Suspense fallback='Loading...'>
-                {t(`cv.experience.description`)}
+                {t(`cv.education.description`)}
               </Suspense>
             </p>
           </WindowContainer>

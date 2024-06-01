@@ -52,45 +52,44 @@ export default function Landing() {
 
 
       <Container id="head"
-        layout="grid grid-cols-2 gap-2 sm:flex sm:flex-col"
+        layout="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col"
         height="h-dvh-minus-nav">
         <Container id="left-half"
-          className="justify-between text-pretty">
-          <div className="flex-1"></div>
+          className="justify-evenly flex-grow text-pretty">
+
           <WindowContainer
             cross
             className="w-full">
-            <Container
+            <Container id="Mati-Gomez"
               className=""
               layout="flex flex-row"
               height="h-[80%]">
-              <h2
-                id="Mati-Gomez"
-                className="text-4xl font-bold tracking-tight font-mono 
-              text-mg-purple md:text-lg sm:text-lg"
-              >
+              <h2 className="text-4xl font-bold tracking-tight font-mono text-mg-purple md:text-lg sm:text-lg">
                 /mgomez@portfolio:~
-                <p className="text-mg-off-white md:text-lg sm:text-lg">{t('landing.intro')} <span className="text-mg-green md:text-lg sm:text-lg">{t('landing.name')}</span></p>
+                <p className="text-mg-off-white md:text-lg sm:text-lg">{t('landing.intro')}
+                  <span className="text-mg-green md:text-lg sm:text-lg">{t('landing.name')}
+                  </span>
+                </p>
 
                 <p className="text-mg-off-white text-3xl md:text-lg sm:text-lg">&#9612;</p>
               </h2>
             </Container>
           </WindowContainer>
-          <div className="flex-1"></div>
+
           <Suspense fallback="Loading...">
             <p className="font-variant text-2xl font-bold">
               {t('landing.title')}
             </p>
           </Suspense>
-          <div className="flex-1"></div>
+
           <Suspense fallback="Loading...">
             <p className="font-main text-2xl font-extralight">
               {t('landing.abstract')}
             </p>
           </Suspense>
-          <div className="flex-1"></div>
+
         </Container>
-        <Container id="headshot"
+        <Container id="headshot-half"
           padding=""
           className="justify-center align-middle self-center">
           <Image
@@ -111,27 +110,18 @@ export default function Landing() {
         src={bannerImagen}
         alt="screenshot de codigo" />
 
-      <Container id="titles"
-        className=""
-        padding=""
-        layout="flex flex-row"
-        background="bg-glow-top-line">
-          
-          
-      </Container>
-
       <Container id="skills-projects"
         height="lg:h-dvh w-full max-w-[1750px]"
         layout="flex flex-col lg:flex-row "
         padding="">
-          
+
         <Container id="projects"
           className=""
           background=""
           padding=""
           layout="basis-8/12 flex flex-col"
           height="h-full">
-          
+
           <Container id="projects-title"
             className="h-1/8"
             layout="flex flex-row justify-around"
@@ -184,7 +174,7 @@ export default function Landing() {
               <h1 className="font-heading text-2xl text-center self-center lg:w-full">Ecommerce</h1>
               <Container
                 layout="basis-2/4"
-                padding=""
+                padding="p-4"
                 className="flex items-center">
                 <p className="">{t(`landing.agur`)}</p>
               </Container>
@@ -199,7 +189,7 @@ export default function Landing() {
 
           </Container>
         </Container>
-        
+
         <Container id="skills"
           className=""
           background=""
@@ -221,13 +211,14 @@ export default function Landing() {
 
           <Container id="skills-text"
             background=""
+            padding="p-4"
             height="basis-3/12">
             <p>Aca va texto acerca de los diferentes skills, y cambia cuando hovereas un skill. Bueno mentira, aun no hace nada y esto es todo lo que es, un simple {`<p></p>`}</p>
           </Container>
-          
+
           <Container id="skills-panel"
             className=""
-            padding="m-8 p-4"
+            padding="m-8 p-4 pt-8"
             height="basis-8/12"
             background="bg-mg-off-white bg-opacity-20 rounded-xl"
             layout="flex flex-row flex-wrap justify-around">
@@ -246,7 +237,7 @@ export default function Landing() {
 
       </Container>
 
-      </>
+    </>
 
   );
 }

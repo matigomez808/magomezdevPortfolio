@@ -27,9 +27,9 @@ export const TableContainer = ({ children, localeData }) => {
 
           {localeData.map((item, index) => (
             <Container id="row" key={index} padding="" className="text-center inline-flex" layout="" border={index >= localeData.length-1 ? `` : `border-b border-mg-off-white`}>
-              <Container key={index} padding="" className=" text-sm leading-10 mx-2 basis-2/12">{item.date}</Container>
-              <Container key={index} padding="" className="mx-2 leading-10  basis-6/12">{item.title}</Container>
-              <Container key={index} padding="" className="mx-2 leading-10 text-sm font-mono basis-4/12">{item.description}</Container>
+              <Container key={index} padding="" className=" text-sm leading-10 mx-2 basis-2/12 self-center">{item.date}</Container>
+              <Container key={index} padding="" className="mx-2 leading-10  basis-6/12 self-center">{item.title}</Container>
+              <Container key={index} padding="" className="mx-2 leading-10 text-sm font-mono basis-4/12 self-center">{item.description}</Container>
             </Container>
           ))}
         

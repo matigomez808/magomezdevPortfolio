@@ -37,7 +37,7 @@ export const CurriculumVitae = () => {
           className=""
 
           layout="flex flex-row">
-          <h1 className="text-right font-heading font-light text-4xl">Matías Gómez</h1>
+          <h1 className=" font-heading font-light text-4xl">Matías Gómez</h1>
           <Container className="flex-grow" layout="" padding=""></Container>
           <Container
             className=""

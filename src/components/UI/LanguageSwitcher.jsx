@@ -5,10 +5,10 @@ function LanguageSwitcher() {
   const setLanguage = useTorreStore((state) => state.setLanguage);
 
   return (
-    <div>
+    <div className="flex sm:flex-col ">
       <button
         onClick={() => setLanguage("en")}
-        className={`font-variant text-l px-4 rounded ${
+        className={`font-variant text-lg sm:text-sm px-4 rounded ${
           language === "en" ? "font-bold" : ""
         }`}
       >
@@ -16,7 +16,7 @@ function LanguageSwitcher() {
       </button>
       <button
         onClick={() => setLanguage("es")}
-        className={`font-variant text-lg px-4 rounded ${
+        className={`font-variant text-lg sm:text-sm px-4 rounded ${
           language === "es" ? "font-bold" : ""
         }`}
       >

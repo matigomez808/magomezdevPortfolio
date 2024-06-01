@@ -22,13 +22,13 @@ const Navigator = () => {
       <Container
         id="top"
         element="nav"
-        padding="pt-4 pb-4 px-8"
-        layout="flex flex-row"
+        padding="py-4 px-8"
+        layout="flex flex-row justify-between"
         fontFamily="font-heading"
         background="bg-gradient-to-t from-mg-green-glow to-20%"
         border="border-b border-mg-off-white-glow"
         height="h-[65px]" >
-        <div className=""></div>
+        <Container className="" padding="" layout="" fontFamily="font-heading">
         <AnimatedLink href="/" className={btnStyle}>
           HOME
         </AnimatedLink>
@@ -38,7 +38,7 @@ const Navigator = () => {
         <AnimatedLink href="/blog" className={btnStyle}>
           BLOG
         </AnimatedLink>
-        <Box className="flex-grow" />
+        </Container>
         <Suspense fallback='Loading...'>
           <LanguageSwitcher />
         </Suspense>

@@ -25,7 +25,7 @@ export const Blog = () => {
         />
         </Container>
         
-        <Container element="section">
+        <Container >
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
     </>

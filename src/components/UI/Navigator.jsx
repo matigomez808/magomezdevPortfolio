@@ -13,7 +13,8 @@ const btnStyle = "border-none font-bold text-xl px-4 rounded"
 
 const Navigator = () => {
   return (
-    <Container
+    <Container id="navbar"
+    element="nav"
     className=""
     background="bg-black"
     layout=""
@@ -25,7 +26,8 @@ const Navigator = () => {
         layout="flex flex-row"
         fontFamily="font-heading"
         background="bg-gradient-to-t from-mg-green-glow to-20%"
-        border="border-b border-mg-off-white-glow" >
+        border="border-b border-mg-off-white-glow"
+        height="h-[65px]" >
         <div className=""></div>
         <AnimatedLink href="/" className={btnStyle}>
           HOME

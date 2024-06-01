@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 
-const TorrePage = () => {
+const BiblioPage = () => {
   return <Torre />
 }
 

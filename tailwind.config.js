@@ -19,7 +19,12 @@ module.exports = {
       lg: {'min' : '1200px'},
       // => @media (min-width: 1200px) { ... }
     },
+    
     extend: {
+      spacing: {
+        "dvh-minus-nav" : "calc(100dvh - 65px)",
+        "banner" : "20dvh"
+      },
       fontFamily: {
         'main': ['Chivo', 'sans-serif'],
         'heading' : ['"Red Hat Display"', 'serif'],
@@ -38,6 +43,9 @@ module.exports = {
       backgroundImage: {
         'glow-purple-left': "linear-gradient(to right, rgba(101, 19, 152, 0.25) 0%, rgba(0, 0, 0, 0.5) 20% )",
         'glow-purple-right': "linear-gradient(to left, rgba(101, 19, 152, 0.25) 0%, rgba(0, 0, 0, 0.5) 20% )",
+        'glow-bottom-line' : "linear-gradient(to top, rgba(194, 219, 197, 0.3) 5%, rgba(0,0,0,0) 25%)",
+        'glow-top-line' : "linear-gradient(to bottom, rgba(194, 219, 197, 0.1) 5%, rgba(0,0,0,0) 25%)",
+        'fade-to-black': "linear-gradient(180deg, rgba(00 , 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%)"
       },
       
       animation: {

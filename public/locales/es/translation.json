@@ -1,6 +1,8 @@
 {
   "landing": {
-    "title": "Desarrollador fullstack situado en La Pampa, Argentina",
+    "title": "Desarrollador de software situado en La Pampa, Argentina",
+    "intro": "$ echo",
+    "name": "Matias Gomez",
     "abstract": "Apasionado por el desarrollo de software. Aprender de forma autodidacta me ayudó a re-entender a esta herramienta que son las TI. Mi formación previa en comunicación, audiovisuales y carpintería me acompañan en este nuevo trayecto de mi carrera profesional.",
     "torre": "Esta es mi primera aplicación. Es un pequeño juego en el que introducimos palabras al azar en un relato y despues vemos qué relato nuevo construimos. Es verdaderamente sencilla pero divertida.",
     "agur": "Este es un sitio de Ecommerce para un emprendimiento de ropa interior en mi ciudad. Es mi primer proyecto con React. Es bastante sencillo y aún sigue en desarrollo. Comenzó como un proyecto 100% React y de a poco fui incorporando frameworks como Material UI y Zustand para manejo del state. Tiene también una integración con MongoDB Atlas con la que accede a una lista de productos con sus imagenes colgadas en un bucket externo.",
@@ -9,56 +11,85 @@
       "agur": "Ecommerce para un emprendimiento local.",
       "torre": "Pequeño juego de historias locas."
     },
-    "gallery" : "Toca la imagen para ver mas",
-    "goTorre" : "Ir a la Torre de Mabel"
+    "gallery": "Toca la imagen para ver mas",
+    "goBiblio": "Ir a la Bbilbioteca de Mabel"
   },
   "cv": {
     "pageTitle": "Mi CV",
-    "title": "Desarrollador Fullstack",
+    "title": "Desarrollador de software",
     "location": "Santa Rosa, La Pampa, Argentina",
     "aboutMeTitle": "Acerca de mí",
-    "aptitudes": "Estoy familiarizado con el lenguaje Javascript y varias de sus librerías. También con Java y Spring Boot. Tengo aptitud para el desarrollo de servicios web, APIs, arquitectura REST, Clean Code y metodología Agile. Estudié inglés por diez años y culminé ese proceso de aprendizaje graduandome en el Tamaki College de Auckland durante un año de Intercambio Cultural con AFS. Soy versátil, adaptable y estoy encantado por el desarrollo de software. Cuento con un amplio bagaje de habilidades producto de desarrollarme profesionalmente en diversos campos. Siempre orientado a la resolución creativa y práctica de problemas.",
+    "aptitudes": "En 2020 comencé con curiosidad a incursionar en programación. Aprendí python, lógica de programación básica y un poco de SQL. No seguí de inmediato, sino que en el medio aprendí de emprendedurismo, dieño y a crear objetos de madera con herramientas manuales. Ahora, hace un poco mas de 2 años estoy enfocado al 100% en programación. Retomé el camino de las TI con un programa en el que aprendí Java y Spring Boot. Enfocado en el desarrollo de bases de datos y APIs Rest. En ese trayecto descrubrí herramientas mas completas y con perspectivas nuevas. Si bien el tiempo en medio no fue poco, mis primeras indagaciones en Python rendian frutos. Participar de un programa estructurado fue muy beneficioso, pero el ritmo me pareció insuficiente. En forma autodidacta aprendí a desarrollar código para FrontEnd y tambien amplié mis herramientas BackEnd en JS usando Next.js",
     "education": {
-      "title" : "Formación",
-      "item1Title": " - Python for Everybody - Programming basics by Dr. Charles Severance",
-      "item1Date" : "2021",
-      "item1Content" : "Python, OOP",
-
-      "item2Title": " - Alura Latam - Graduado de Oracle Next Education Backend development",
-      "item2Date" : "2022 - 2023",
-      "item2Content" : "Java + Spring | Agile | Bases de datos relacionales - Oracle Cloud Infrastructure",
-
-      "item3Title": " - FreeCodeCamp - JavaScript Algorithms and Data Structures.  ",
-      "item3Date" : "2023",
-      "item3Content" : "Librerias de desarrollo Frontend Front End. Desarrollo Backend y APIs",
-
-      "item4Title": " - Oracle Cloud Infrastructure",
-      "item4Date" : "2023",
-      "item4Content" : "Foundations Associate Certificate by Oracle Learn",
-
-      "item5Title": " - Autodidacta - Desarrollo Fullstack",
-      "item5Date": "2023 - 2024",
-      "item5Content" : "React, NextJS, Tailwind, Zustand, NoSQL and more.",
-
-      "englishTitle": " - First Certificate of English - Cambridge",
-      "englishDate" : "2009",
-      "englishContent" : "B2"
-    },
-    "experience" : {
-      "title": "Trayecto",
+      "title": "Formación",
       "description": "",
-      "item1Date": "2011 - 2012",
-      "item1Title" : " - Mesa de entrada Fundación Chadileuvú",
-      "item2Date" : "2013 - 2016",
-      "item2Title" : " - Operador de radio en FM La Tosca, Radio Mitre y Radio Kermes",
-      "item3Date": "2019",
-      "item3Title" : " - Co-Realizador de Vías al Olvido para CPE TV",
-      "item4Date" : "2021 - 2022",
-      "item4Title" : " - Carpintería artesanal",
-      "item5Date" : "2021 - presente",
-      "item5Title" : " - Fotografía, videografía y Community Manager en Agur"
+      "items": [
+        {
+          "title": "First Certificate of English - Cambridge",
+          "date": "2009",
+          "description": "B2"
+        },
+        {
+          
+          "title": "Python for Everybody",
+          "date": "2021",
+          "description": "Python, OOP. Programming basics by Dr. Charles Severance"
+        },
+        {
+          "title": "Alura Latam - Graduado de Oracle Next Education Backend development",
+          "date": "2022-2023",
+          "description": "Java + Spring | Agile | Bases de datos relacionales"
+        },
+        {
+          "title": "FreeCodeCamp - JavaScript Algorithms and Data Structures.",
+          "date": "2023",
+          "description": "Librerias de desarrollo Frontend Front End. Desarrollo Backend y APIs"
+        },
+        {
+          "title": "Oracle Cloud Infrastructure",
+          "date": "2023",
+          "description": "Foundations Associate Certificate by Oracle Learn"
+        },
+        {
+          "title": "Autodidacta - Desarrollo Fullstack",
+          "date": "2023-2024",
+          "description": "React, NextJS, Tailwind, Zustand, NoSQL and more."
+        }
+        
+      ]
+      
     },
-    "link" : "Ver la versión en PDF"
-    
+    "experience": {
+      "title": "Trayecto",
+      "description": "Mi experiencia laboral es diversa y enriquecedora, abarcando distintos ámbitos que han contribuido a mi formación integral como profesional. Comencé mi carrera en la Fundación Chadileuvú, donde estuve a cargo de la mesa de entrada, desarrollando habilidades administrativas y de atención al público. Posteriormente, me desempeñé como operador de radio en estaciones locales como FM La Tosca, Radio Mitre y Radio Kermes, adquiriendo competencias en comunicación, manejo de equipos técnicos y coordinación de transmisiones en vivo. En 2019, fui co-realizador del documental 'Vías al Olvido' para CPE TV, combinando mis habilidades en comunicación y audiovisuales. Este proyecto me permitió involucrarme en la creación de contenido desde la conceptualización hasta la producción final, trabajando con un equipo multidisciplinario y gestionando recursos para cumplir con los plazos establecidos. Además, perfeccioné mi capacidad para contar historias y transmitir mensajes de manera efectiva a través de medios visuales y auditivos. A partir de 2021, me dediqué a la carpintería artesanal, una etapa que enriqueció mi creatividad y atención al detalle. Simultáneamente, asumí roles en fotografía, videografía y como Community Manager en Agur, un emprendimiento local. Estas experiencias me permitieron desarrollar habilidades técnicas en edición y producción de contenido visual, así como estrategias de marketing digital y gestión de redes sociales, fundamentales para mi actual enfoque en el desarrollo de software.",
+      "items": [
+        {
+          "date": "2011-2012",
+          "title": "Mesa de entrada Fundación Chadileuvú",
+          "description": "asistente administrativo"
+        },
+        {
+          "date": "2013-2016",
+          "title": "Radio FM - La Tosca, Radio Mitre y Radio Kermes",
+          "description": "operador, productor"
+        },
+        {
+          "date": "2019",
+          "title": "Vías al Olvido en CPE TV",
+          "description": "co-realizador"
+        },
+        {
+          "date": "2021-2022",
+          "title": "Carpintería artesanal",
+          "description": "diseño y construcción"
+        },
+        {
+          "date": "2021-presente",
+          "title": "Community Manager",
+          "description": "foto, video, ads"
+        }
+      ]
+    },
+    "link": "Ver la versión en PDF"
   }
 }

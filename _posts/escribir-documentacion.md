@@ -1,12 +1,12 @@
 ---
 title: "Escribir documentación"
 excerpt: "Reflexiones acerca del proceso de escribir documentación y como esto que intenta ser clarificante para un tercer resulta clarificante para uno mismo. Solo pensar en llevarlo a cabo es una buena idea. Tambián algunas recomendaciones de consumos culturales."
-coverImage: ""
+coverImage: "/assets/blog/screenDocs.png"
 date: "2024-05-16"
 author:
   name: Mati Gomez
 ogImage:
-  url: ""
+  url: "/assets/screenDocs.png"
 ---
 
 ##### Escribir documentación, reflexionar sobre la toma de desiciones. 

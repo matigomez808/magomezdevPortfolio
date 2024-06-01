@@ -13,7 +13,7 @@ export function PostHeader({ title, coverImage, date, author }) {
       <div className="hidden md:block md:mb-12">
         
       </div>
-      <div className="mb-8 md:mb-16 sm:mx-0">
+      <div className="mb-8 md:mb-16 sm:mx-0 max-h-[300px] overflow-hidden">
         <CoverImage title={title} src={coverImage} />
       </div>
       <div className="max-w-2xl mx-auto">

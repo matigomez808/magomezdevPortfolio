@@ -3,7 +3,8 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
 import { Footer } from "@/components/UI/Footer";
 import Navigator from "@/components/UI/Navigator";
-import Head from "next/head";
+import { Background } from "@/components/UI/Background";
+
 
 
 
@@ -33,17 +34,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
 
   return (
-    <html lang="en">
+    <html lang="es">
       <body >
-
+        <Background>
         <main className="relative overflow-hidden">
           <Navigator />
-
           {children}
           <Footer />
           <Analytics />
         </main>
-
+        </Background>
       </body>
     </html>
   );

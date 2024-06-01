@@ -9,7 +9,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 
 
-export default function TorreLayout({ children }) {
+export default function BiblioLayout({ children }) {
 
   return (
     <html lang="en">

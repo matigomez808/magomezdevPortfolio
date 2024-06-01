@@ -66,7 +66,7 @@ export default function Landing() {
               height="h-[80%]">
               <h2 className="text-4xl font-bold tracking-tight font-mono text-mg-purple md:text-lg sm:text-lg">
                 /mgomez@portfolio:~
-                <p className="text-mg-off-white md:text-lg sm:text-lg">{t('landing.intro')}
+                <p className="text-mg-off-white md:text-lg sm:text-lg">{t('landing.intro')}  
                   <span className="text-mg-green md:text-lg sm:text-lg">{t('landing.name')}
                   </span>
                 </p>

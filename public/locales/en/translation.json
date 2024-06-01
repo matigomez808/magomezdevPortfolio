@@ -1,7 +1,7 @@
 {
   "landing": {
     "title": "Software developer based in La Pampa, Argentina",
-    "intro": "$ echo",
+    "intro": "$ echo ",
     "name": "Matias Gomez",
     "abstract": "Passionate about software development. The self taught path helped me reconnect with systems in a different way. My prior formation in communication, audiovisuals and carpentry shapes my versatile profile in this new pursuit.",
     "torre": "This is the very first I built. It's a madlibs. It takes a series of words and fills up a randomly picked micro story from a handpicked list. It's a really simple and fun game. At the moment all the stories are in Spanish.",

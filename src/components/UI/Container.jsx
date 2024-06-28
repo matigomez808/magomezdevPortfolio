@@ -12,7 +12,7 @@ import "../../app/(home)/globals.css"
 // Height y Width son en caso de necesidad especifica
 // Glow y border son para los flares de UI
 
-// Para pasar uno sin nada hay que mandar className="" padding="" layout=""
+// Para pasar uno sin nada hay que mandar className="" padding="" layout="" textColor="" background="" fontFamily=""
 
 export const Container = ({
   children,

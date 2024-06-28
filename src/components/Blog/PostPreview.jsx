@@ -13,7 +13,7 @@ export function PostPreview({
   slug,
 }) {
   return (
-    <div>
+    <div className="bg-indigo-300 bg-opacity-5">
       <div className="mb-5 max-h-[350px] overflow-hidden">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
@@ -21,15 +21,15 @@ export function PostPreview({
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
-          className="hover:underline font-heading"
+          className="hover:underline font-heading p-4"
         >
           {title}
         </Link>
       </h3>
-      <div className="text-lg mb-4 font-heading font-light">
+      <div className="text-lg mb-4 font-heading font-light p-4">
         <DateFormatter dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+      <p className="text-lg leading-relaxed mb-4 p-4">{excerpt}</p>
       
     </div>
   );

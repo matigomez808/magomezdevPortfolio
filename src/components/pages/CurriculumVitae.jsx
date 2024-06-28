@@ -63,7 +63,7 @@ export const CurriculumVitae = () => {
 
 
         <Container id="professional-journey"
-          className="mx-auto max-w-[80%] w-fit"
+          className="mx-auto w-fit"
           padding="">
           <TableContainer localeData={cvExpItems} />
 
@@ -80,7 +80,7 @@ export const CurriculumVitae = () => {
         </Container>
 
         <Container id="educational-journey"
-          className="mx-auto max-w-[80%] w-fit"
+          className="mx-auto lg:max-w-[90%] w-fit"
           padding="">
           <TableContainer localeData={cvEduItems} />
 

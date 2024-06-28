@@ -7,7 +7,7 @@ const CoverImage = ({ title, src, slug }) => {
     <Image
       src={src}
       alt={`Imagen de portada para ${title}`}
-      className="shadow-sm w-full h-[40rem] hover:shadow-lg transition-shadow duration-200 object-cover"
+      className="shadow-sm w-full h-[20rem] hover:shadow-lg transition-shadow duration-200 object-cover"
       height={1000}
       width={1300}
     />

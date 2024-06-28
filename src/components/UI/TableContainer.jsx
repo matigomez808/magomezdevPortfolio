@@ -9,8 +9,8 @@ export const TableContainer = ({ children, localeData }) => {
 
   return (
     <Container id="ui-table"
-      background="bg-[#585858] bg-opacity-10"
-      className=""
+      background="bg-indigo-400 bg-opacity-10"
+      className="overflow-hidden-"
       padding=""
       border="border-l border-b border-r border-mg-purple">
       <div id="barra-de-estado"

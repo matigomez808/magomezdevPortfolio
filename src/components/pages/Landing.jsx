@@ -213,7 +213,7 @@ export default function Landing() {
             background=""
             padding="p-4"
             height="basis-3/12">
-            <p>Aca va texto acerca de los diferentes skills, y cambia cuando hovereas un skill. Bueno mentira, aun no hace nada y esto es todo lo que es, un simple {`<p></p>`}</p>
+           
           </Container>
 
           <Container id="skills-panel"

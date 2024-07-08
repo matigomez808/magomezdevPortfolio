@@ -4,7 +4,7 @@ excerpt: "Haciendo pié en algunas historias del género 'coming of age' podemos
 coverImage: "/assets/blog/cover2.jpg"
 date: "2023-01-10"
 author:
-  name: Mati Gomez
+  name: Matias Gomez
 ogImage:
   url: "/assets/blog/cover.jpg"
 ---

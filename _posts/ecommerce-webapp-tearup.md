@@ -4,7 +4,7 @@ excerpt: "In this first english upload we go to my first React project repo and 
 coverImage: "/assets/blog/coverJuly1.png"
 date: "2024-07-01"
 author:
-  name: Mati Gomez
+  name: Matias Gomez
 ogImage:
   url: "/assets/blog/coverJuly1.png"
 ---

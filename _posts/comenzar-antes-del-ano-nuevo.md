@@ -4,7 +4,7 @@ excerpt: "Una pequeña reflexión acerca de lo que significa empezar un año. Re
 coverImage: "/assets/blog/cover.png"
 date: "2023-01-03"
 author:
-  name: Mati Gomez
+  name: Matias Gomez
 
 ogImage:
   url: "/assets/blog/cover.jpg"

@@ -4,7 +4,7 @@ excerpt: "Unas lineas acerca del proceso de aprender y comenzar a buscar empleo 
 coverImage: "/assets/blog/cover5.jpg"
 date: "2024-02-21"
 author:
-  name: Mati Gomez
+  name: Matias Gomez
 
 ogImage:
   url: "/assets/blog/cover5.jpg"

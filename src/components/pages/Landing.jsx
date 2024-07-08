@@ -53,7 +53,7 @@ export default function Landing() {
 
       <Container id="head"
         layout="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col"
-        height="h-dvh-minus-nav">
+        height="lg:h-dvh-minus-nav">
         <Container id="left-half"
           className="justify-evenly flex-grow text-pretty">
 
@@ -91,7 +91,7 @@ export default function Landing() {
         </Container>
         <Container id="headshot-half"
           padding=""
-          className="justify-center align-middle self-center">
+          className="justify-center align-middle self-center content-stretch">
           <Image
             className="rounded-full mx-auto bg-none max-w-[50%]"
             src="/carnet.jpg"

@@ -4,7 +4,7 @@ excerpt: "Reflexiones acerca del proceso de escribir documentación y como esto 
 coverImage: "/assets/blog/screenDocs.png"
 date: "2024-05-16"
 author:
-  name: Mati Gomez
+  name: Matias Gomez
 ogImage:
   url: "/assets/screenDocs.png"
 ---

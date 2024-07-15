@@ -1,0 +1,23 @@
+---
+title: "cleanCode | Off Topic"
+excerpt: "Some thoughts about the polysemy of messages and the efforts we make to make them as clear and bug free as possible."
+coverImage: "/assets/blog/clean.png"
+date: "2024-07-15"
+author:
+  name: Matias Gomez
+ogImage:
+  url: "/assets/blog/clean.png"
+---
+
+
+Let's bounce off something I read in *Clean Code*. It goes something like this: good code should read easily; you should be able to find similar joy in reading code as in reading The Lord of the Rings. The author is not talking about the literary value of code compared to Tolkien's books, but about how different kinds of writing still need to convey meaning and, in some cases more than others, be as concise as possible. **Readability**. To overstate the obvious, in our React apps, we're not writing any epic fights between evil and good; we're trying to display things centered and make do with the JSON we get. Still, in my opinion, it's important to write with a conscious effort to make it as clear as possible. Not only to make someone else's job easier in the future but also because it's the way in which we internalize those ideas. As writers of instructions, we should always aim for the cleanest, most understandable code. Just tell a story, right? We all just want to know what's going on there. The issue may then arise when there seems to be no new stories to be told.
+
+### Revivals within revivals
+
+Recently, I decided to take Harvard's **CS50x** course, and for the first week's assignment, I'm working on a Scratch project. A very simple program that takes us through the process of preparing a "mate," a typical Argentinian beverage. When I was done drawing the sprites on Inkscape and was working on the scripts, my partner told me that the style reminded her of *"Alejo y Valentina"*, an old web series from the early 2000s. Not only do I agree, but I'm also glad that it could be seen as a reference. I realized that I had seen a mention of Ale Szykula somewhere recently, and all of a sudden, it started clicking. All the referencing is fun, and I could pursue a design process in a referential way. It's surely a way to add more pull to something. But in my opinion, that is a way of holding back on what we have to say. References will find a way into creations just because we live in the same world.
+
+We've been living in a revival supremacy for quite some time now. Most cultural mass products are, in some ways, a remake or a reboot of some intellectual property. It seems like the times when media products winked at and made cheeky little references to each other are gone. Most likely, everything now is read by a group in a way that holds it against everything it mentions, even in a slight fashion. This way of reading content pulls away from the message itself, be it the story, the lyrics, rhythm, palette, or whatever should be central, and focuses on the smallest bits sometimes to the extent of isolation. Let's sell this reimagination of an old movie, and the spin is that it happens in our present. Still, this guy will beat up everyone, walk away, and get a happy ending. Fun movie though. And surely the code is neat too; I mean, it doesn't get more conventional than copy-pasting something else, but this mechanization of the processes in favor of more time to do more important things sometimes lays waste to the richness of the process itself. Writing *some* of that boilerplate code a few times could be better than just adding clutter with a framework that does all sorts of things that aren't needed.
+
+In a way, taking CS50x is a revival of taking a first computer science course when I've been studying this for a few years now. And to find this kind of project here is so much fun, given I spent so many hours with *Adobe Flash* and similar software when I was a teen.
+
+The movie I was talking about was *Road House*, and also I think of all the *Star Wars* hype and the lackluster results sometimes due to unreal expectations. The question that pops up then is where lies the value in those "repeated" experiences? In my opinion, it lies in that we should be able to take these different instances of the same thing and get something else off of it *think about different Batman eras, all chipping in with different takes on the well-known character*. In the end, we're all telling stories that, of course, will be similar to some other previously told story. We won't stop telling stories, and we won't stop reading stories either.
